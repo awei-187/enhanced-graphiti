@@ -1,0 +1,25 @@
+no-cache:
+"avg_total_latency_ms": 9213.029415320303,
+"avg_absolute_latency_ms": 467.4361931930415,
+
+numpy-cache:
+"avg_total_latency_ms": 7232.913616597231,
+"avg_absolute_latency_ms": 431.03888170493946,
+"avg_hit_latency_ms": "3.90",
+"avg_miss_latency_ms": "9758.01",
+
+faiss-exact-cache:
+"avg_total_latency_ms": 6576.36161829813,
+"avg_absolute_latency_ms": 410.77896765881576,
+"avg_hit_latency_ms": "0.59",
+"avg_miss_latency_ms": "8756.12",
+
+faiss-hnsw-cache:
+"avg_total_latency_ms": 6618.74471915009,
+"avg_absolute_latency_ms": 403.340910215976,
+"avg_hit_latency_ms": "0.45",
+"avg_miss_latency_ms": "8858.05",
+
+subgraph-cache:
+"avg_total_latency_ms": 8156.577675317741,
+"avg_absolute_latency_ms": 516.2264974463354,

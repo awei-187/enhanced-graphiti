@@ -1,0 +1,80 @@
+python locomo_test_search.py --dataset ./data/locomo10_expanded_shuffled1.json --cache-strategy direct --output ./data/graphiti_mylocomo_search_no_cache1_enhanced3.json --cache-stats-output ./data/graphiti_mylocomo_cache_no_cache1_enhanced3.json --latency-stats-output ./data/graphiti_mylocomo_latency_no_cache1_enhanced3.json --enable-structured-search  --enable-single-entity-structured-search --single-entity-structured-limit 3
+
+
+semantic-cache:
+"avg_total_latency_ms": 7362.0468289353585,
+"avg_absolute_latency_ms": 308.50546382815935,
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   84 /  107 | Accuracy: 78.50%
+Multi-Hop QA        :   28 /   43 | Accuracy: 65.12%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   54 /   70 | Accuracy: 77.14%
+--------------------------------------------------
+OVERALL ACCURACY    :  179 /  235 | Accuracy: 76.17%
+==================================================
+
+subgraph-cache:
+"avg_total_latency_ms": 6788.924742978255,
+"avg_absolute_latency_ms": 412.646007233552,
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   87 /  107 | Accuracy: 81.31%
+Multi-Hop QA        :   30 /   43 | Accuracy: 69.77%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   52 /   70 | Accuracy: 74.29%
+--------------------------------------------------
+OVERALL ACCURACY    :  182 /  235 | Accuracy: 77.45%
+==================================================
+
+no-cache:
+"avg_total_latency_ms": 9213.029415320303,
+"avg_absolute_latency_ms": 467.4361931930415,
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   83 /  107 | Accuracy: 77.57%
+Multi-Hop QA        :   28 /   43 | Accuracy: 65.12%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   50 /   70 | Accuracy: 71.43%
+--------------------------------------------------
+OVERALL ACCURACY    :  174 /  235 | Accuracy: 74.04%
+==================================================
+
+no-cache-new_edge_search_version1:
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   86 /  107 | Accuracy: 80.37%
+Multi-Hop QA        :   31 /   43 | Accuracy: 72.09%
+Open-Domain QA      :   12 /   15 | Accuracy: 80.00%
+Temporal QA         :   54 /   70 | Accuracy: 77.14%
+--------------------------------------------------
+OVERALL ACCURACY    :  183 /  235 | Accuracy: 77.87%
+==================================================
+
+no-cache-new_edge_search_version2:
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   89 /  107 | Accuracy: 83.18%
+Multi-Hop QA        :   31 /   43 | Accuracy: 72.09%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   54 /   70 | Accuracy: 77.14%
+--------------------------------------------------
+OVERALL ACCURACY    :  187 /  235 | Accuracy: 79.57%
+==================================================
+
+no-cache-new_edge_search_version3:
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   86 /  107 | Accuracy: 80.37%
+Multi-Hop QA        :   31 /   43 | Accuracy: 72.09%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   49 /   70 | Accuracy: 70.00%
+--------------------------------------------------
+OVERALL ACCURACY    :  179 /  235 | Accuracy: 76.17%
+==================================================

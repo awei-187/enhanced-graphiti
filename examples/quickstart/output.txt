@@ -1,0 +1,66 @@
+2026-03-08 10:50:49 - graphiti_core.cache.vector_index - INFO - Creating NumPy index with dimension 1024
+2026-03-08 10:50:49 - graphiti_core.cache.semantic_cache - INFO - SemanticCache initialized: threshold=0.9, ttl=300.0s, max_entries=1000
+2026-03-08 10:50:49 - graphiti_core.graphiti - INFO - Semantic cache enabled: threshold=0.9, ttl=300.0s, max_entries=1000
+2026-03-08 10:50:58 - graphiti_core.cache.vector_index - INFO - Creating NumPy index with dimension 1024
+2026-03-08 10:50:58 - graphiti_core.cache.semantic_cache - INFO - SemanticCache initialized: threshold=0.9, ttl=300.0s, max_entries=1000
+2026-03-08 10:51:09 - graphiti_core.search.search - INFO - [CACHE HIT] query="Kamala Harris holds the role of Attorney General o..." latency=647.63ms hit_count=1
+2026-03-08 10:51:18 - graphiti_core.graphiti - INFO - Completed add_episode in 28866.39904975891 ms
+Added episode: Freakonomics Radio 0 (text)
+2026-03-08 10:51:33 - graphiti_core.search.search - INFO - [CACHE HIT] query="Harris (as AG) served in office from January 3, 20..." latency=615.60ms hit_count=1
+2026-03-08 10:51:37 - graphiti_core.graphiti - INFO - Completed add_episode in 19416.90492630005 ms
+Added episode: Freakonomics Radio 1 (text)
+2026-03-08 10:51:55 - graphiti_core.search.search - INFO - [CACHE HIT] query="Gavin Newsom was previously associated with San Fr..." latency=536.27ms hit_count=1
+2026-03-08 10:51:55 - graphiti_core.search.search - INFO - [CACHE HIT] query="Gavin Newsom is the Governor...." latency=573.76ms hit_count=1
+2026-03-08 10:51:55 - graphiti_core.search.search - INFO - [CACHE HIT] query="Gavin Newsom previously served as Lieutenant Gover..." latency=584.29ms hit_count=1
+2026-03-08 10:51:56 - graphiti_core.search.search - INFO - [CACHE HIT] query="The Governor is the governor of California...." latency=1365.72ms hit_count=1
+2026-03-08 10:52:02 - graphiti_core.graphiti - INFO - Completed add_episode in 24984.671592712402 ms
+Added episode: Freakonomics Radio 2 (json)
+2026-03-08 10:52:06 - graphiti_core.search.search - INFO - [CACHE HIT] query="Gavin Newsom..." latency=1260.58ms hit_count=1
+2026-03-08 10:52:14 - graphiti_core.search.search - INFO - [CACHE HIT] query="Gavin Newsom serves as Governor of California sinc..." latency=492.88ms hit_count=1
+2026-03-08 10:52:19 - graphiti_core.graphiti - INFO - Completed add_episode in 16389.151096343994 ms
+Added episode: Freakonomics Radio 3 (json)
+
+==================================================
+CACHE VALIDATION TEST
+==================================================
+
+Cache enabled: True
+Cache object: SemanticCache(size=0, threshold=0.9, hit_rate=0.00%)
+Cache size: 0
+Cache threshold: 0.9
+
+[Test 1] First query: 'Who was the California Attorney General?'
+Expected: Cache MISS (first time seeing this query)
+Results: 7 edges found
+Time: 651.29 ms
+
+[Test 2] Same query again: 'Who was the California Attorney General?'
+Expected: Cache HIT (exact same query)
+2026-03-08 10:52:20 - graphiti_core.search.search - INFO - [CACHE HIT] query="Who was the California Attorney General?..." latency=483.01ms hit_count=1
+Results: 7 edges found
+Time: 484.12 ms
+Speedup: 1.3x faster
+
+[Test 3] Similar query: 'Who is the Attorney General of California?'
+Expected: Cache HIT (semantically similar)
+2026-03-08 10:52:21 - graphiti_core.search.search - INFO - [CACHE HIT] query="Who is the Attorney General of California?..." latency=608.95ms hit_count=2
+Results: 7 edges found
+Time: 608.95 ms
+
+[Test 4] Different query: 'What is the capital of France?'
+Expected: Cache MISS (different topic)
+Results: 4 edges found
+Time: 534.41 ms
+
+==================================================
+CACHE STATISTICS
+==================================================
+Total Queries: 4
+Cache Hits:    2
+Cache Misses:  2
+Hit Rate:      50.00%
+Avg Hit Latency:  0.30 ms
+Avg Miss Latency: 592.23 ms
+==================================================
+
+Connection closed

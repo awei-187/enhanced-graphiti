@@ -1,0 +1,1071 @@
+{
+  "queries_evaluated": 152,
+  "avg_total_latency_ms": 11244.714380922138,
+  "avg_absolute_latency_ms": 373.01455065818647,
+  "rows": [
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline go to the LGBTQ support group?",
+      "total_latency_ms": 10597.733000002336,
+      "absolute_latency_ms": 354.15019998617936,
+      "model_wait_ms": 10243.582800016156
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie paint a sunrise?",
+      "total_latency_ms": 9545.573199997307,
+      "absolute_latency_ms": 366.68330001703,
+      "model_wait_ms": 9178.889899980277
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What fields would Caroline be likely to pursue in her educaton?",
+      "total_latency_ms": 9676.626300002681,
+      "absolute_latency_ms": 330.1006999972742,
+      "model_wait_ms": 9346.525600005407
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Caroline research?",
+      "total_latency_ms": 12262.511299995822,
+      "absolute_latency_ms": 329.6987999929115,
+      "model_wait_ms": 11932.81250000291
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What is Caroline's identity?",
+      "total_latency_ms": 10167.805200006114,
+      "absolute_latency_ms": 316.76359999983106,
+      "model_wait_ms": 9851.041600006283
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie run a charity race?",
+      "total_latency_ms": 11875.58700000227,
+      "absolute_latency_ms": 314.16280001576524,
+      "model_wait_ms": 11561.424199986504
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When is Melanie planning on going camping?",
+      "total_latency_ms": 10532.222900001216,
+      "absolute_latency_ms": 332.80989999184385,
+      "model_wait_ms": 10199.413000009372
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What is Caroline's relationship status?",
+      "total_latency_ms": 11576.994100003503,
+      "absolute_latency_ms": 334.4245999905979,
+      "model_wait_ms": 11242.569500012905
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline give a speech at a school?",
+      "total_latency_ms": 12618.483099999139,
+      "absolute_latency_ms": 298.59260001103394,
+      "model_wait_ms": 12319.890499988105
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline meet up with her friends, family, and mentors?",
+      "total_latency_ms": 13384.586000000127,
+      "absolute_latency_ms": 354.0702999889618,
+      "model_wait_ms": 13030.515700011165
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How long has Caroline had her current group of friends for?",
+      "total_latency_ms": 11097.448900007294,
+      "absolute_latency_ms": 363.24340000282973,
+      "model_wait_ms": 10734.205500004464
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Where did Caroline move from 4 years ago?",
+      "total_latency_ms": 9174.755500003812,
+      "absolute_latency_ms": 308.4413999749813,
+      "model_wait_ms": 8866.31410002883
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How long ago was Caroline's 18th birthday?",
+      "total_latency_ms": 9050.487999993493,
+      "absolute_latency_ms": 336.0878999810666,
+      "model_wait_ms": 8714.400100012426
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What career path has Caroline decided to persue?",
+      "total_latency_ms": 13474.60209998826,
+      "absolute_latency_ms": 325.39769999857526,
+      "model_wait_ms": 13149.204399989685
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+      "total_latency_ms": 9985.489400001825,
+      "absolute_latency_ms": 317.08579999394715,
+      "model_wait_ms": 9668.403600007878
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What activities does Melanie partake in?",
+      "total_latency_ms": 10426.390699998592,
+      "absolute_latency_ms": 332.2278000123333,
+      "model_wait_ms": 10094.162899986259
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie sign up for a pottery class?",
+      "total_latency_ms": 9950.28239999374,
+      "absolute_latency_ms": 347.6652999961516,
+      "model_wait_ms": 9602.617099997588
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When is Caroline going to the transgender conference?",
+      "total_latency_ms": 10327.545499996631,
+      "absolute_latency_ms": 325.20199997816235,
+      "model_wait_ms": 10002.343500018469
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Where has Melanie camped?",
+      "total_latency_ms": 10378.083700008574,
+      "absolute_latency_ms": 319.56020000507124,
+      "model_wait_ms": 10058.523500003503
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What do Melanie's kids like?",
+      "total_latency_ms": 10027.856100001372,
+      "absolute_latency_ms": 329.38960001047235,
+      "model_wait_ms": 9698.4664999909
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie go to the museum?",
+      "total_latency_ms": 9886.712400009856,
+      "absolute_latency_ms": 305.0166000321042,
+      "model_wait_ms": 9581.695799977751
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline have a picnic?",
+      "total_latency_ms": 9384.061799995834,
+      "absolute_latency_ms": 320.73510000191163,
+      "model_wait_ms": 9063.326699993922
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+      "total_latency_ms": 8758.103499989375,
+      "absolute_latency_ms": 301.2303999712458,
+      "model_wait_ms": 8456.873100018129
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What books has Melanie read?",
+      "total_latency_ms": 9105.356000000029,
+      "absolute_latency_ms": 327.09089998388663,
+      "model_wait_ms": 8778.265100016142
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Melanie do to destress?",
+      "total_latency_ms": 9161.197100009304,
+      "absolute_latency_ms": 328.1338999950094,
+      "model_wait_ms": 8833.063200014294
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline go to the LGBTQ conference?",
+      "total_latency_ms": 9049.302400002489,
+      "absolute_latency_ms": 374.8889000125928,
+      "model_wait_ms": 8674.413499989896
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie read the book \"nothing is impossible\"?",
+      "total_latency_ms": 9178.85870000464,
+      "absolute_latency_ms": 318.04499999270774,
+      "model_wait_ms": 8860.813700011931
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Caroline pursue writing as a career option?",
+      "total_latency_ms": 9402.910299992072,
+      "absolute_latency_ms": 315.3372000087984,
+      "model_wait_ms": 9087.573099983274
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline go to the adoption meeting?",
+      "total_latency_ms": 12010.568999990937,
+      "absolute_latency_ms": 331.575399992289,
+      "model_wait_ms": 11678.993599998648
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie go to the pottery workshop?",
+      "total_latency_ms": 10191.139100003056,
+      "absolute_latency_ms": 340.95340000931174,
+      "model_wait_ms": 9850.185699993744
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Melanie be considered a member of the LGBTQ community?",
+      "total_latency_ms": 9400.347000002512,
+      "absolute_latency_ms": 342.62799998396076,
+      "model_wait_ms": 9057.719000018551
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie go camping in June?",
+      "total_latency_ms": 9267.794600003981,
+      "absolute_latency_ms": 328.79819998925086,
+      "model_wait_ms": 8938.99640001473
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What LGBTQ+ events has Caroline participated in?",
+      "total_latency_ms": 10138.275100005558,
+      "absolute_latency_ms": 442.31679997756146,
+      "model_wait_ms": 9695.958300027996
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline go to a pride parade during the summer?",
+      "total_latency_ms": 10936.540399998194,
+      "absolute_latency_ms": 402.23530000366736,
+      "model_wait_ms": 10534.305099994526
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What events has Caroline participated in to help children?",
+      "total_latency_ms": 14863.30860000453,
+      "absolute_latency_ms": 373.26380000740755,
+      "model_wait_ms": 14490.044799997122
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie go camping in July?",
+      "total_latency_ms": 9987.027100010891,
+      "absolute_latency_ms": 350.170200021239,
+      "model_wait_ms": 9636.856899989652
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline join a mentorship program?",
+      "total_latency_ms": 10503.11689999944,
+      "absolute_latency_ms": 371.27719998534303,
+      "model_wait_ms": 10131.839700014098
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Melanie paint recently?",
+      "total_latency_ms": 12836.194399991655,
+      "absolute_latency_ms": 372.1494000055827,
+      "model_wait_ms": 12464.044999986072
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What activities has Melanie done with her family?",
+      "total_latency_ms": 10073.476300007314,
+      "absolute_latency_ms": 425.68580000079237,
+      "model_wait_ms": 9647.790500006522
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "In what ways is Caroline participating in the LGBTQ community?",
+      "total_latency_ms": 9972.823499992955,
+      "absolute_latency_ms": 377.2538999764947,
+      "model_wait_ms": 9595.56960001646
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How many times has Melanie gone to the beach in 2023?",
+      "total_latency_ms": 9579.289500004961,
+      "absolute_latency_ms": 351.5060000063386,
+      "model_wait_ms": 9227.783499998623
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline join a new activist group?",
+      "total_latency_ms": 11837.131700012833,
+      "absolute_latency_ms": 359.55660000036005,
+      "model_wait_ms": 11477.575100012473
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Melanie be more interested in going to a national park or a theme park?",
+      "total_latency_ms": 10421.043800000916,
+      "absolute_latency_ms": 336.66070000617765,
+      "model_wait_ms": 10084.383099994739
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What kind of art does Caroline make?",
+      "total_latency_ms": 9977.512800003751,
+      "absolute_latency_ms": 328.7489999929676,
+      "model_wait_ms": 9648.763800010784
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When is Melanie's daughter's birthday?",
+      "total_latency_ms": 9180.90539998957,
+      "absolute_latency_ms": 306.10809999052435,
+      "model_wait_ms": 8874.797299999045
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline attend a pride parade in August?",
+      "total_latency_ms": 10132.236399993417,
+      "absolute_latency_ms": 339.6132000052603,
+      "model_wait_ms": 9792.623199988157
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Melanie be considered an ally to the transgender community?",
+      "total_latency_ms": 10533.313399995677,
+      "absolute_latency_ms": 332.2406000079354,
+      "model_wait_ms": 10201.072799987742
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Who supports Caroline when she has a negative experience?",
+      "total_latency_ms": 10800.14229999506,
+      "absolute_latency_ms": 367.52999998861924,
+      "model_wait_ms": 10432.61230000644
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What types of pottery have Melanie and her kids made?",
+      "total_latency_ms": 9256.678500009002,
+      "absolute_latency_ms": 375.2501000126358,
+      "model_wait_ms": 8881.428399996366
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline and Melanie go to a pride fesetival together?",
+      "total_latency_ms": 11314.28859999869,
+      "absolute_latency_ms": 373.60390000685584,
+      "model_wait_ms": 10940.684699991834
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What would Caroline's political leaning likely be?",
+      "total_latency_ms": 12255.320899988874,
+      "absolute_latency_ms": 396.86340000480413,
+      "model_wait_ms": 11858.45749998407
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What has Melanie painted?",
+      "total_latency_ms": 11121.124700002838,
+      "absolute_latency_ms": 389.7340000112308,
+      "model_wait_ms": 10731.390699991607
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What are Melanie's pets' names?",
+      "total_latency_ms": 10384.547200010275,
+      "absolute_latency_ms": 363.1288000033237,
+      "model_wait_ms": 10021.41840000695
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline apply to adoption agencies?",
+      "total_latency_ms": 8897.758199993405,
+      "absolute_latency_ms": 345.49709998827893,
+      "model_wait_ms": 8552.261100005126
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline draw a self-portrait?",
+      "total_latency_ms": 26637.553599997773,
+      "absolute_latency_ms": 355.0634999992326,
+      "model_wait_ms": 26282.49009999854
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What subject have Caroline and Melanie both painted?",
+      "total_latency_ms": 9817.815799993696,
+      "absolute_latency_ms": 388.49469998967834,
+      "model_wait_ms": 9429.321100004017
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What symbols are important to Caroline?",
+      "total_latency_ms": 8290.89859999658,
+      "absolute_latency_ms": 389.2529999866383,
+      "model_wait_ms": 7901.645600009942
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline encounter people on a hike and have a negative experience?",
+      "total_latency_ms": 9516.908599995077,
+      "absolute_latency_ms": 343.52949997992255,
+      "model_wait_ms": 9173.379100015154
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie make a plate in pottery class?",
+      "total_latency_ms": 9168.296999996528,
+      "absolute_latency_ms": 372.6762000005692,
+      "model_wait_ms": 8795.620799995959
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Caroline be considered religious?",
+      "total_latency_ms": 9509.04509999964,
+      "absolute_latency_ms": 327.5909999938449,
+      "model_wait_ms": 9181.454100005794
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What instruments does Melanie play?",
+      "total_latency_ms": 8992.896299998392,
+      "absolute_latency_ms": 384.757299994817,
+      "model_wait_ms": 8608.139000003575
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What musical artists/bands has Melanie seen?",
+      "total_latency_ms": 10258.664500011946,
+      "absolute_latency_ms": 363.02960000466555,
+      "model_wait_ms": 9895.63490000728
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie go to the park?",
+      "total_latency_ms": 9499.852599998121,
+      "absolute_latency_ms": 379.75079999887384,
+      "model_wait_ms": 9120.101799999247
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When is Caroline's youth center putting on a talent show?",
+      "total_latency_ms": 7882.601100005559,
+      "absolute_latency_ms": 369.79630003042985,
+      "model_wait_ms": 7512.804799975129
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+      "total_latency_ms": 10210.311600007117,
+      "absolute_latency_ms": 406.5058999985922,
+      "model_wait_ms": 9803.805700008525
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What are some changes Caroline has faced during her transition journey?",
+      "total_latency_ms": 20815.16980000015,
+      "absolute_latency_ms": 381.5949999989243,
+      "model_wait_ms": 20433.574800001225
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Melanie do with her family on hikes?",
+      "total_latency_ms": 20552.76700000104,
+      "absolute_latency_ms": 390.06140000128653,
+      "model_wait_ms": 20162.705599999754
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline go biking with friends?",
+      "total_latency_ms": 23147.752999997465,
+      "absolute_latency_ms": 357.8345999994781,
+      "model_wait_ms": 22789.918399997987
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How long has Melanie been practicing art?",
+      "total_latency_ms": 12023.857300009695,
+      "absolute_latency_ms": 371.5694000275107,
+      "model_wait_ms": 11652.287899982184
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What personality traits might Melanie say Caroline has?",
+      "total_latency_ms": 9781.94450000592,
+      "absolute_latency_ms": 382.94610001321416,
+      "model_wait_ms": 9398.998399992706
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What transgender-specific events has Caroline attended?",
+      "total_latency_ms": 8652.357700004359,
+      "absolute_latency_ms": 348.4384999901522,
+      "model_wait_ms": 8303.919200014207
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What book did Melanie read from Caroline's suggestion?",
+      "total_latency_ms": 9722.477999996045,
+      "absolute_latency_ms": 402.88609998242464,
+      "model_wait_ms": 9319.59190001362
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie's friend adopt a child?",
+      "total_latency_ms": 10526.999699999578,
+      "absolute_latency_ms": 374.01989998761564,
+      "model_wait_ms": 10152.979800011963
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie get hurt?",
+      "total_latency_ms": 13532.321499995305,
+      "absolute_latency_ms": 346.44029998162296,
+      "model_wait_ms": 13185.881200013682
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie's family go on a roadtrip?",
+      "total_latency_ms": 9295.70170000079,
+      "absolute_latency_ms": 353.85929999756627,
+      "model_wait_ms": 8941.842400003225
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How many children does Melanie have?",
+      "total_latency_ms": 9072.43020000169,
+      "absolute_latency_ms": 354.5998000045074,
+      "model_wait_ms": 8717.830399997183
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie go on a hike after the roadtrip?",
+      "total_latency_ms": 8731.03059999994,
+      "absolute_latency_ms": 356.09820000536274,
+      "model_wait_ms": 8374.932399994577
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Melanie go on another roadtrip soon?",
+      "total_latency_ms": 11695.367499996792,
+      "absolute_latency_ms": 386.1196000070777,
+      "model_wait_ms": 11309.247899989714
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What items has Melanie bought?",
+      "total_latency_ms": 9436.344199988525,
+      "absolute_latency_ms": 361.49150000710506,
+      "model_wait_ms": 9074.85269998142
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Caroline pass the adoption interview?",
+      "total_latency_ms": 9193.6321999965,
+      "absolute_latency_ms": 350.6811000115704,
+      "model_wait_ms": 8842.95109998493
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "When did Melanie buy the figurines?",
+      "total_latency_ms": 8986.754199999268,
+      "absolute_latency_ms": 376.2819999974454,
+      "model_wait_ms": 8610.472200001823
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Would Caroline want to move back to her home country soon?",
+      "total_latency_ms": 9263.35970000946,
+      "absolute_latency_ms": 338.5358000086853,
+      "model_wait_ms": 8924.823900000774
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did the charity race raise awareness for?",
+      "total_latency_ms": 9213.612300009117,
+      "absolute_latency_ms": 361.7310000117868,
+      "model_wait_ms": 8851.88129999733
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Melanie realize after the charity race?",
+      "total_latency_ms": 10045.934200010379,
+      "absolute_latency_ms": 372.2122000181116,
+      "model_wait_ms": 9673.721999992267
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How does Melanie prioritize self-care?",
+      "total_latency_ms": 9567.986999987625,
+      "absolute_latency_ms": 352.4001999758184,
+      "model_wait_ms": 9215.586800011806
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What are Caroline's plans for the summer?",
+      "total_latency_ms": 9341.38760001224,
+      "absolute_latency_ms": 368.83010000747163,
+      "model_wait_ms": 8972.557500004768
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What type of individuals does the adoption agency Caroline is considering support?",
+      "total_latency_ms": 8802.542700010235,
+      "absolute_latency_ms": 377.6627000042936,
+      "model_wait_ms": 8424.880000005942
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Why did Caroline choose the adoption agency?",
+      "total_latency_ms": 14257.454000005964,
+      "absolute_latency_ms": 365.06010001176037,
+      "model_wait_ms": 13892.393899994204
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What is Caroline excited about in the adoption process?",
+      "total_latency_ms": 11406.713100004708,
+      "absolute_latency_ms": 373.18269998650067,
+      "model_wait_ms": 11033.530400018208
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Melanie think about Caroline's decision to adopt?",
+      "total_latency_ms": 12585.988199993153,
+      "absolute_latency_ms": 386.5642000164371,
+      "model_wait_ms": 12199.423999976716
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How long have Mel and her husband been married?",
+      "total_latency_ms": 9642.72419999179,
+      "absolute_latency_ms": 316.53859998914413,
+      "model_wait_ms": 9326.185600002646
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Caroline's necklace symbolize?",
+      "total_latency_ms": 12003.205500004697,
+      "absolute_latency_ms": 366.4063000032911,
+      "model_wait_ms": 11636.799200001406
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What country is Caroline's grandma from?",
+      "total_latency_ms": 10555.925299995579,
+      "absolute_latency_ms": 343.07849998003803,
+      "model_wait_ms": 10212.84680001554
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What was grandma's gift to Caroline?",
+      "total_latency_ms": 9715.167100002873,
+      "absolute_latency_ms": 371.5816000039922,
+      "model_wait_ms": 9343.58549999888
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What is Melanie's hand-painted bowl a reminder of?",
+      "total_latency_ms": 10185.316800008877,
+      "absolute_latency_ms": 369.9310000229161,
+      "model_wait_ms": 9815.385799985961
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Melanie and her family do while camping?",
+      "total_latency_ms": 10354.933499998879,
+      "absolute_latency_ms": 369.97149998205714,
+      "model_wait_ms": 9984.962000016822
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+      "total_latency_ms": 23690.382900007535,
+      "absolute_latency_ms": 369.35340001946315,
+      "model_wait_ms": 23321.02949998807
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What workshop did Caroline attend recently?",
+      "total_latency_ms": 10540.688000008231,
+      "absolute_latency_ms": 396.77880000090227,
+      "model_wait_ms": 10143.909200007329
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What was discussed in the LGBTQ+ counseling workshop?",
+      "total_latency_ms": 9577.68699999724,
+      "absolute_latency_ms": 349.8195999854943,
+      "model_wait_ms": 9227.867400011746
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What motivated Caroline to pursue counseling?",
+      "total_latency_ms": 9383.59210001363,
+      "absolute_latency_ms": 363.9536000264343,
+      "model_wait_ms": 9019.638499987195
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What kind of place does Caroline want to create for people?",
+      "total_latency_ms": 9166.216700003133,
+      "absolute_latency_ms": 363.2460000080755,
+      "model_wait_ms": 8802.970699995058
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Did Melanie make the black and white bowl in the photo?",
+      "total_latency_ms": 8384.81070000853,
+      "absolute_latency_ms": 347.4700999795459,
+      "model_wait_ms": 8037.340600028983
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What kind of books does Caroline have in her library?",
+      "total_latency_ms": 8613.27750000055,
+      "absolute_latency_ms": 349.302099988563,
+      "model_wait_ms": 8263.975400011986
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What was Melanie's favorite book from her childhood?",
+      "total_latency_ms": 9747.842500000843,
+      "absolute_latency_ms": 354.08460001053754,
+      "model_wait_ms": 9393.757899990305
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What book did Caroline recommend to Melanie?",
+      "total_latency_ms": 9410.19100000267,
+      "absolute_latency_ms": 384.05490000150166,
+      "model_wait_ms": 9026.136100001168
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Caroline take away from the book \"Becoming Nicole\"?",
+      "total_latency_ms": 10120.479699995485,
+      "absolute_latency_ms": 354.15179999836255,
+      "model_wait_ms": 9766.327899997123
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What are the new shoes that Melanie got used for?",
+      "total_latency_ms": 9785.424200003035,
+      "absolute_latency_ms": 342.31770000769757,
+      "model_wait_ms": 9443.106499995338
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What is Melanie's reason for getting into running?",
+      "total_latency_ms": 10256.915099991602,
+      "absolute_latency_ms": 323.738199978834,
+      "model_wait_ms": 9933.176900012768
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Melanie say running has been great for?",
+      "total_latency_ms": 10391.585299992585,
+      "absolute_latency_ms": 347.7126999932807,
+      "model_wait_ms": 10043.872599999304
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Mel and her kids make during the pottery workshop?",
+      "total_latency_ms": 11643.832400004612,
+      "absolute_latency_ms": 365.688300007605,
+      "model_wait_ms": 11278.144099997007
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What kind of pot did Mel and her kids make with clay?",
+      "total_latency_ms": 11607.628500001738,
+      "absolute_latency_ms": 375.54959999397397,
+      "model_wait_ms": 11232.078900007764
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What creative project do Mel and her kids do together besides pottery?",
+      "total_latency_ms": 13104.277000005823,
+      "absolute_latency_ms": 384.1664999927161,
+      "model_wait_ms": 12720.110500013107
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Mel and her kids paint in their latest project in July 2023?",
+      "total_latency_ms": 12682.851400008076,
+      "absolute_latency_ms": 372.65849999675993,
+      "model_wait_ms": 12310.192900011316
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Caroline see at the council meeting for adoption?",
+      "total_latency_ms": 9739.064900000812,
+      "absolute_latency_ms": 366.1997000017436,
+      "model_wait_ms": 9372.865199999069
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What do sunflowers represent according to Caroline?",
+      "total_latency_ms": 9432.746000005864,
+      "absolute_latency_ms": 346.490600015386,
+      "model_wait_ms": 9086.255399990478
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Why are flowers important to Melanie?",
+      "total_latency_ms": 10745.387100003427,
+      "absolute_latency_ms": 363.2269000081578,
+      "model_wait_ms": 10382.160199995269
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What inspired Caroline's painting for the art show?",
+      "total_latency_ms": 9662.849799991818,
+      "absolute_latency_ms": 384.84329999482725,
+      "model_wait_ms": 9278.00649999699
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How often does Melanie go to the beach with her kids?",
+      "total_latency_ms": 10541.132400001516,
+      "absolute_latency_ms": 383.0039000167744,
+      "model_wait_ms": 10158.128499984741
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Melanie and her family see during their camping trip last year?",
+      "total_latency_ms": 10761.028400011128,
+      "absolute_latency_ms": 378.7585000245599,
+      "model_wait_ms": 10382.269899986568
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How did Melanie feel while watching the meteor shower?",
+      "total_latency_ms": 11581.928800005699,
+      "absolute_latency_ms": 341.3086999935331,
+      "model_wait_ms": 11240.620100012165
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Whose birthday did Melanie celebrate recently?",
+      "total_latency_ms": 7595.531700004358,
+      "absolute_latency_ms": 327.34780000464525,
+      "model_wait_ms": 7268.183899999713
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Who performed at the concert at Melanie's daughter's birthday?",
+      "total_latency_ms": 10036.498700006632,
+      "absolute_latency_ms": 361.1406999989413,
+      "model_wait_ms": 9675.35800000769
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Why did Melanie choose to use colors and patterns in her pottery project?",
+      "total_latency_ms": 9134.974100001273,
+      "absolute_latency_ms": 376.01859999995213,
+      "model_wait_ms": 8758.95550000132
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What pet does Caroline have?",
+      "total_latency_ms": 9589.986699997098,
+      "absolute_latency_ms": 398.8175999984378,
+      "model_wait_ms": 9191.16909999866
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What pets does Melanie have?",
+      "total_latency_ms": 9794.336000006297,
+      "absolute_latency_ms": 357.69419999269303,
+      "model_wait_ms": 9436.641800013604
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Where did Oliver hide his bone once?",
+      "total_latency_ms": 12222.77490000124,
+      "absolute_latency_ms": 2618.2026000024052,
+      "model_wait_ms": 9604.572299998836
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What activity did Caroline used to do with her dad?",
+      "total_latency_ms": 9997.19819999882,
+      "absolute_latency_ms": 355.8291000081226,
+      "model_wait_ms": 9641.369099990698
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Caroline make for a local church?",
+      "total_latency_ms": 9710.406799989869,
+      "absolute_latency_ms": 351.8259999982547,
+      "model_wait_ms": 9358.580799991614
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Caroline find in her neighborhood during her walk?",
+      "total_latency_ms": 11656.947800001944,
+      "absolute_latency_ms": 353.5586000070907,
+      "model_wait_ms": 11303.389199994854
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Which song motivates Caroline to be courageous?",
+      "total_latency_ms": 10592.679800000042,
+      "absolute_latency_ms": 350.22900001786184,
+      "model_wait_ms": 10242.45079998218
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Which  classical musicians does Melanie enjoy listening to?",
+      "total_latency_ms": 11210.026899992954,
+      "absolute_latency_ms": 365.0873000151478,
+      "model_wait_ms": 10844.939599977806
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "Who is Melanie a fan of in terms of modern music?",
+      "total_latency_ms": 14824.784700002056,
+      "absolute_latency_ms": 359.7771000058856,
+      "model_wait_ms": 14465.00759999617
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How long has Melanie been creating art?",
+      "total_latency_ms": 12215.79840000777,
+      "absolute_latency_ms": 373.2787000190001,
+      "model_wait_ms": 11842.51969998877
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What precautionary sign did Melanie see at the café?",
+      "total_latency_ms": 21792.99610000453,
+      "absolute_latency_ms": 348.97870001441333,
+      "model_wait_ms": 21444.017399990116
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What advice does Caroline give for getting started with adoption?",
+      "total_latency_ms": 18957.67240000714,
+      "absolute_latency_ms": 367.1020000183489,
+      "model_wait_ms": 18590.570399988792
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What setback did Melanie face in October 2023?",
+      "total_latency_ms": 21376.208799993037,
+      "absolute_latency_ms": 327.3502999654738,
+      "model_wait_ms": 21048.858500027563
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Melanie do to keep herself busy during her pottery break?",
+      "total_latency_ms": 16229.95720000472,
+      "absolute_latency_ms": 399.3223999859765,
+      "model_wait_ms": 15830.634800018743
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+      "total_latency_ms": 22416.356300003827,
+      "absolute_latency_ms": 384.9186000152258,
+      "model_wait_ms": 22031.4376999886
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+      "total_latency_ms": 17610.860100001446,
+      "absolute_latency_ms": 388.8996000168845,
+      "model_wait_ms": 17221.96049998456
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What was the poetry reading that Caroline attended about?",
+      "total_latency_ms": 16437.588000000687,
+      "absolute_latency_ms": 362.3756000015419,
+      "model_wait_ms": 16075.212399999145
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did the posters at the poetry reading say?",
+      "total_latency_ms": 12795.243200002005,
+      "absolute_latency_ms": 366.7468999774428,
+      "model_wait_ms": 12428.496300024563
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What does Caroline's drawing symbolize for her?",
+      "total_latency_ms": 13179.834599999595,
+      "absolute_latency_ms": 369.7829000011552,
+      "model_wait_ms": 12810.05169999844
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How do Melanie and Caroline describe their journey through life together?",
+      "total_latency_ms": 9405.759800007218,
+      "absolute_latency_ms": 390.2510999905644,
+      "model_wait_ms": 9015.508700016653
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What happened to Melanie's son on their road trip?",
+      "total_latency_ms": 10514.357700012624,
+      "absolute_latency_ms": 344.11470004124567,
+      "model_wait_ms": 10170.242999971379
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How did Melanie's son handle the accident?",
+      "total_latency_ms": 10390.609999987646,
+      "absolute_latency_ms": 352.67099998600315,
+      "model_wait_ms": 10037.939000001643
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How did Melanie feel about her family after the accident?",
+      "total_latency_ms": 10650.995800009696,
+      "absolute_latency_ms": 364.2262999928789,
+      "model_wait_ms": 10286.769500016817
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How did Melanie's children handle the accident?",
+      "total_latency_ms": 11239.581799993175,
+      "absolute_latency_ms": 354.91199998068623,
+      "model_wait_ms": 10884.669800012489
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How did Melanie feel after the accident?",
+      "total_latency_ms": 11295.856700002332,
+      "absolute_latency_ms": 305.55370000365656,
+      "model_wait_ms": 10990.302999998676
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What was Melanie's reaction to her children enjoying the Grand Canyon?",
+      "total_latency_ms": 12688.753299997188,
+      "absolute_latency_ms": 393.46439998189453,
+      "model_wait_ms": 12295.288900015294
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What do Melanie's family give her?",
+      "total_latency_ms": 12512.002200004645,
+      "absolute_latency_ms": 412.8515000047628,
+      "model_wait_ms": 12099.150699999882
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "How did Melanie feel about her family supporting her?",
+      "total_latency_ms": 11805.277899999055,
+      "absolute_latency_ms": 391.6544000094291,
+      "model_wait_ms": 11413.623499989626
+    },
+    {
+      "owner_id": "conv-26",
+      "question": "What did Melanie do after the road trip to relax?",
+      "total_latency_ms": 10919.432800001232,
+      "absolute_latency_ms": 356.70840000966564,
+      "model_wait_ms": 10562.724399991566
+    }
+  ]
+}

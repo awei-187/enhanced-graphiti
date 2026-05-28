@@ -1,0 +1,18 @@
+conv-26：313(除类别5：235个)
+conv-30：168
+conv-41：307
+conv-42：400
+conv-43：336
+conv-44：237
+conv-47：294
+conv-48：356
+conv-49：300
+conv-50：302
+总计：10 组，3013 条 query。
+
+
+python locomo_test_search.py --dataset ./data/locomo10_expanded_shuffled1.json --disable-cache --output ./data/graphiti_mylocomo_search_no_cache1.json --cache-stats-output ./data/graphiti_mylocomo_cache_no_cache1.json --latency-stats-output ./data/graphiti_mylocomo_latency_no_cache1.json
+
+python locomo_test_search.py --dataset ./data/locomo10_expanded_shuffled1.json --enable-cache --cache-threshold 0.9 --cache-ttl-seconds 3600 --cache-max-entries 500 --output ./data/graphiti_mylocomo_search_cache1.json --cache-stats-output ./data/graphiti_mylocomo_cache_cache1.json --latency-stats-output ./data/graphiti_mylocomo_latency_cache1.json
+
+python locomo_test_search.py --dataset ./data/locomo10_expanded_shuffled1.json --disable-cache --output ./data/graphiti_mylocomo_search_no_cache1_new.json --cache-stats-output ./data/graphiti_mylocomo_cache_no_cache1_new.json --latency-stats-output ./data/graphiti_mylocomo_latency_no_cache1_new.json --enable-structured-search

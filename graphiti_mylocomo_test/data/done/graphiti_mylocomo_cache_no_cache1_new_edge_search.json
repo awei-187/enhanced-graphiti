@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "config": {
+    "cache_similarity_threshold": 0.9,
+    "cache_ttl_seconds": 300.0,
+    "cache_max_entries": 1000,
+    "structured_search_enabled": true
+  },
+  "stats": null
+}

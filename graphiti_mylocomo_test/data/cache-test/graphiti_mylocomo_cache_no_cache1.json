@@ -1,0 +1,19 @@
+{
+  "cache_strategy": "direct",
+  "semantic_cache_enabled": false,
+  "subgraph_cache_enabled": false,
+  "config": {
+    "cache_similarity_threshold": 0.9,
+    "cache_ttl_seconds": 300.0,
+    "cache_max_entries": 1000,
+    "subgraph_cache_ttl_seconds": 300.0,
+    "subgraph_cache_max_entries": 100,
+    "subgraph_cache_min_top1_score": 0.75,
+    "subgraph_cache_max_candidates": 50,
+    "structured_search_enabled": false,
+    "single_entity_structured_search_enabled": false,
+    "single_entity_structured_limit": 3
+  },
+  "semantic_cache_stats": null,
+  "subgraph_cache_stats": null
+}

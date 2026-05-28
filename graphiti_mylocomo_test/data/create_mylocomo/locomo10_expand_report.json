@@ -1,0 +1,84 @@
+{
+  "input_file": "C:\\Users\\awei\\Desktop\\enhanced_graphiti\\my_evals\\graphiti_mylocomo_test\\data\\create_mylocomo\\locomo10.json",
+  "expanded_output_file": "C:\\Users\\awei\\Desktop\\enhanced_graphiti\\my_evals\\graphiti_mylocomo_test\\data\\create_mylocomo\\locomo10_expanded.json",
+  "total_original_questions": 1986,
+  "total_generated_questions": 1986,
+  "pass_count": 1986,
+  "fail_count": 0,
+  "pass_rate": 1.0,
+  "uses_llm": false,
+  "rule_count": 1986,
+  "llm_fallback_count": 0,
+  "per_sample_stats": [
+    {
+      "sample_id": "conv-26",
+      "original_qa_count": 199,
+      "generated_qa_count": 199,
+      "pass_count": 199,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-30",
+      "original_qa_count": 105,
+      "generated_qa_count": 105,
+      "pass_count": 105,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-41",
+      "original_qa_count": 193,
+      "generated_qa_count": 193,
+      "pass_count": 193,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-42",
+      "original_qa_count": 260,
+      "generated_qa_count": 260,
+      "pass_count": 260,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-43",
+      "original_qa_count": 242,
+      "generated_qa_count": 242,
+      "pass_count": 242,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-44",
+      "original_qa_count": 158,
+      "generated_qa_count": 158,
+      "pass_count": 158,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-47",
+      "original_qa_count": 190,
+      "generated_qa_count": 190,
+      "pass_count": 190,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-48",
+      "original_qa_count": 239,
+      "generated_qa_count": 239,
+      "pass_count": 239,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-49",
+      "original_qa_count": 196,
+      "generated_qa_count": 196,
+      "pass_count": 196,
+      "fail_count": 0
+    },
+    {
+      "sample_id": "conv-50",
+      "original_qa_count": 204,
+      "generated_qa_count": 204,
+      "pass_count": 204,
+      "fail_count": 0
+    }
+  ]
+}

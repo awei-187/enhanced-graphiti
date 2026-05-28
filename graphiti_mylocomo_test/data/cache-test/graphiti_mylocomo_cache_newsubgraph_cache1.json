@@ -1,0 +1,30 @@
+{
+  "cache_strategy": "subgraph",
+  "semantic_cache_enabled": false,
+  "subgraph_cache_enabled": true,
+  "config": {
+    "cache_similarity_threshold": 0.9,
+    "cache_ttl_seconds": 3600.0,
+    "cache_max_entries": 1000,
+    "subgraph_cache_ttl_seconds": 3600.0,
+    "subgraph_cache_max_entries": 100,
+    "subgraph_cache_min_top1_score": 0.75,
+    "subgraph_cache_max_candidates": 50,
+    "structured_search_enabled": false,
+    "single_entity_structured_search_enabled": false,
+    "single_entity_structured_limit": 3
+  },
+  "semantic_cache_stats": null,
+  "subgraph_cache_stats": {
+    "total_queries": 235,
+    "cache_hits": 0,
+    "cache_misses": 235,
+    "hit_rate": "0.00%",
+    "fallbacks_by_low_score": 234,
+    "puts": 235,
+    "avg_hit_latency_ms": "0.00",
+    "avg_miss_latency_ms": "72.15",
+    "invalidations_by_ttl": 0,
+    "invalidations_by_entity": 0
+  }
+}

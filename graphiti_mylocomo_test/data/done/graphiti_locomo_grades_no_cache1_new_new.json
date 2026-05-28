@@ -1,0 +1,1649 @@
+{
+  "conv-26": [
+    {
+      "question": "What week did Caroline submit her applications to adoption agencies?",
+      "answer": "Caroline submitted her applications to adoption agencies during the week of May 25, 2023, as she was actively engaged in researching adoption agencies and discussing her adoption process around that time.",
+      "golden_answer": "The week of 23 August 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "Would Melanie go on another roadtrip soon?",
+      "answer": "Based on the provided memories, there is no explicit mention of Melanie planning another road trip soon. The most recent relevant memory indicates that Melanie's son was involved in a road trip accident on October 20, 2023, which was a scary experience for the family. Given this context, it is likely that Melanie may be hesitant to go on another road trip in the near future. Therefore, the answer is:\n\nNo, there is no indication that Melanie would go on another road trip soon.",
+      "golden_answer": "Likely no; since this one went badly",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What activities does Melanie partake in?",
+      "answer": "Melanie partakes in several activities, including:\n\n1. **Hiking in the mountains** - She enjoys connecting with nature through hiking and exploring forests (last noted on July 15, 2023).\n2. **Volunteering** - Melanie spends time volunteering with her family, which she finds meaningful (noted on August 24, 2023).\n3. **Playing musical instruments** - She plays the clarinet (noted on August 28, 2023) and carves out me-time by playing her violin (noted on May 25, 2023).\n4. **Swimming** - Melanie goes swimming with her kids (noted on May 8, 2023).\n5. **Camping** - She loves camping trips with her family and has recently enjoyed a camping trip (noted on October 20, 2023).\n6. **Artistic pursuits** - Melanie engages in pottery and painting, finding them calming and satisfying (noted on September 13, 2023, and she has been creating art for seven years).\n7. **Reading** - She carves out time for reading as a way to stay present and manage her life (noted on May 25, 2023).\n8. **Running** - Melanie also includes running in her daily me-time activities (noted on May 25, 2023).\n\nThese activities reflect her interests in nature, family, art, and personal well-being.",
+      "golden_answer": "pottery, camping, painting, swimming",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What are Caroline's plans for the summer?",
+      "answer": "Caroline's plans for the summer include wanting to plan something special for herself and Mel, as she expressed her excitement for a trip with Mel on August 17, 2023. Additionally, she is interested in catching up and exploring nature during this time. Caroline also mentioned the significance of summer traditions, such as beach trips, which she finds special. Overall, her summer plans revolve around quality time with friends and creating memorable experiences.",
+      "golden_answer": "researching adoption agencies",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "How did Melanie feel while watching the meteor shower?",
+      "answer": "Melanie felt so at one with the universe while watching the Perseid meteor shower. She described the experience as amazing, feeling tiny and in awe of the universe as she lay under the clear sky filled with stars.",
+      "golden_answer": "in awe of the universe",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Melanie run a charity race?",
+      "answer": "Melanie ran a charity race for mental health on May 20, 2023.",
+      "golden_answer": "The sunday before 25 May 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Caroline get together with her friends, family, and mentors?",
+      "answer": "Caroline received help from friends during her transition and acceptance on July 6, 2023, and she also received help from family during the same transition on October 22, 2023. Additionally, she expressed gratitude for the support from her friends, family, and mentors throughout her journey, particularly during significant moments in her life. However, there is no specific date mentioned for a gathering with all of them together.",
+      "golden_answer": "The week before 9 June 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "What was the date when Caroline went biking with her friends?",
+      "answer": "Caroline went biking with her friends on September 9, 2023.",
+      "golden_answer": "The weekend before 13 September 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Can you tell me what Melanie and her family do while camping?",
+      "answer": "While camping, Melanie and her family enjoy several activities, including exploring the forest, hiking, roasting marshmallows, and telling stories around the campfire. These activities create cherished memories and foster bonding among family members, making their camping trips a highlight of their summer.",
+      "golden_answer": "explored nature, roasted marshmallows, and went on a hike",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What books has Melanie read?",
+      "answer": "Melanie has read \"Charlotte's Web\" as a kid and a book last year that reminds her to always pursue her dreams. Additionally, she is currently reading a book that Caroline recommended a while ago.",
+      "golden_answer": "\"Nothing is Impossible\", \"Charlotte's Web\"",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Which song motivates Caroline to be courageous?",
+      "answer": "The song that motivates Caroline to be courageous is \"Brave\" by Sara Bareilles. This song holds significant meaning for her, as it is about being courageous and fighting for what is right, reflecting the paths she has taken and the progress she has made in her life.",
+      "golden_answer": "Brave by Sara Bareilles",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What do sunflowers represent according to Caroline?",
+      "answer": "Sunflowers represent warmth and happiness according to Caroline.",
+      "golden_answer": "warmth and happiness",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "How did Melanie's son handle the accident?",
+      "answer": "Melanie's son handled the accident well, as indicated by Caroline's remark that \"Kids are amazingly resilient in tough situations.\" Additionally, Melanie mentioned that her son was okay after the accident, which suggests he coped with the experience positively. The incident served as a reminder for Melanie to cherish life and family, highlighting the resilience of her son and the family's ability to navigate the situation together.",
+      "golden_answer": "He was scared but reassured by his family",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What kind of books does Caroline have in her library?",
+      "answer": "Caroline has a collection of kids' books in her library, which includes classics, educational books, and stories from different cultures. She is creating this library in preparation for when she has children, with the intention of reading to them and helping to open their minds.",
+      "golden_answer": "kids' books - classics, stories from different cultures, educational books",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Caroline see at the council meeting for adoption?",
+      "answer": "At the council meeting for adoption, which Caroline attended on July 7, 2023, she experienced an inspiring and emotional event. Many people were present with the intention to create loving homes for children in need. The experience reinforced Caroline's determination to adopt, highlighting the community's commitment to supporting children through adoption.",
+      "golden_answer": "many people wanting to create loving homes for children in need",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What does Caroline's necklace symbolize?",
+      "answer": "Caroline's necklace symbolizes her roots in Sweden, as well as love, faith, and strength. It is a meaningful reminder of her family and cultural heritage, particularly representing the love and support from her grandmother who gifted it to her.",
+      "golden_answer": "love, faith, and strength",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline pass the adoption interview?",
+      "answer": "Caroline passed the adoption agency interviews on October 20, 2023.",
+      "golden_answer": "The Friday before 22 October 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What date did Caroline attend the LGBTQ support group?",
+      "answer": "Caroline attended the LGBTQ support group on May 7, 2023.",
+      "golden_answer": "7 May 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "How long has Melanie been practicing art?",
+      "answer": "Melanie has been creating art for seven years.",
+      "golden_answer": "Since 2016",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Could you tell me who is Melanie a fan of in terms of modern music?",
+      "answer": "Melanie is a fan of Ed Sheeran, particularly his song \"Perfect.\"",
+      "golden_answer": "Ed Sheeran",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Would Caroline likely have Dr. Seuss books on her bookshelf?",
+      "answer": "Yes, Caroline would likely have Dr. Seuss books on her bookshelf. She is creating a library of children's books that includes classics, educational books, and stories from different cultures, which aligns with the type of whimsical and imaginative literature that Dr. Seuss is known for.",
+      "golden_answer": "Yes, since she collects classic children's books",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "On what date in August did Caroline go to a pride parade?",
+      "answer": "Caroline went to a pride parade on August 23, 2023.",
+      "golden_answer": "The Friday before 14 August 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "What areas of study might Caroline choose for her education?",
+      "answer": "Caroline might choose to study counseling or mental health as areas of focus for her education. She has expressed a keen interest in these fields, indicating a desire to support individuals who have faced similar challenges. Additionally, she is exploring various career options related to mental health, which aligns with her passion for helping others.",
+      "golden_answer": "Psychology, counseling certification",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What kind of painting did Caroline share with Melanie on October 13, 2023?",
+      "answer": "On October 13, 2023, Caroline expressed interest in checking out Melanie's paintings, but there is no specific mention of a painting that Caroline shared with Melanie on that date. Therefore, the details about a specific painting shared by Caroline on that day are not available in the provided memories.",
+      "golden_answer": "An abstract painting with blue streaks on a wall.",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Melanie say running has been great for?",
+      "answer": "Melanie says that running has been great for her mental health.",
+      "golden_answer": "Her mental health",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline encounter people on a hike and have a negative experience?",
+      "answer": "Caroline encountered people on a hike and had a negative experience on August 17, 2023.",
+      "golden_answer": "The week before 25 August 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What was Melanie's reaction to her children enjoying the Grand Canyon?",
+      "answer": "Melanie's reaction to her children enjoying the Grand Canyon was one of joy and appreciation. She expressed that the family had a blast during their visit, highlighting the significance of the experience and how much her children enjoyed it. This visit to the Grand Canyon was part of a family camping trip that Melanie described as relaxing and joyful, reinforcing her deep love and gratitude for her family.",
+      "golden_answer": "She was happy and thankful",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What pets does Melanie have?",
+      "answer": "Melanie has a pup (dog) and two cats named Bailey and Oliver.",
+      "golden_answer": "Two cats and a dog",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "On what date did Melanie participate in a charity race?",
+      "answer": "Melanie participated in a charity race for mental health on May 20, 2023.",
+      "golden_answer": "The sunday before 25 May 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What was the date of Caroline's self-portrait drawing?",
+      "answer": "The memories do not explicitly mention a specific date for Caroline's self-portrait drawing. However, it is noted that Caroline has been into art since she was 17, and she has created various artworks, including a painting that symbolizes freedom. The most recent relevant memory regarding her art is from October 13, 2023, where she discusses her art's significance. Without a specific date for the self-portrait drawing, I cannot provide an exact answer. If you have more context or details about the self-portrait, I can assist further.",
+      "golden_answer": "The week before 23 August 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie's family go on a roadtrip?",
+      "answer": "Melanie's family went on a road trip on October 19, 2023, as indicated by the memory that mentions they completed the trip the day before that date.",
+      "golden_answer": "The weekend before 20 October 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What date did Melanie visit the museum?",
+      "answer": "Melanie visited the museum on July 5, 2023.",
+      "golden_answer": "5 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie go to the pottery workshop?",
+      "answer": "Melanie went to the pottery workshop on July 7, 2023.",
+      "golden_answer": "The Friday before 15 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What items has Melanie bought?",
+      "answer": "Based on the provided context, there is no specific mention of items that Melanie has bought. The memories primarily focus on her artistic pursuits, support for Caroline, and family experiences, but do not detail any purchases made by Melanie. Therefore, I cannot provide a list of items that Melanie has bought.",
+      "golden_answer": "Figurines, shoes",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "What does Melanie do with her family on hikes?",
+      "answer": "Melanie enjoys exploring nature and bonding with her family during hikes. She appreciates these moments as they allow her to connect with her loved ones and experience the beauty of the outdoors together.",
+      "golden_answer": "Roast marshmallows, tell stories",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "Could you tell me what Caroline's plans for the summer?",
+      "answer": "Caroline's plans for the summer include organizing something special just for the two of them, as she wants to catch up and explore nature. Additionally, she is involved in putting together a talent show for kids next month, which is likely part of her summer activities. Caroline also expressed excitement about a trip with Mel, indicating that there are more plans in the works for the summer.",
+      "golden_answer": "researching adoption agencies",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Melanie realize after the charity race?",
+      "answer": "After the charity race, Melanie realized the importance of taking care of mental health. She found the experience very rewarding, which made her reflect more deeply on mental well-being.",
+      "golden_answer": "self-care is important",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Melanie get hurt?",
+      "answer": "Melanie got hurt on September 1, 2023.",
+      "golden_answer": "September 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What was the date when Caroline became part of a mentorship program?",
+      "answer": "Caroline joined a mentorship program for LGBTQ youth on July 8, 2023.",
+      "golden_answer": "The weekend before 17 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What did Caroline research?",
+      "answer": "Caroline researched adoption agencies on May 25, 2023, and has been looking into mental health and counseling career options, starting on June 27, 2023, and July 12, 2023, respectively.",
+      "golden_answer": "Adoption agencies",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Can you tell me what Melanie do with her family on hikes?",
+      "answer": "Melanie enjoys connecting with nature by hiking in the mountains and exploring forests with her family. During these hikes, they engage in activities such as exploring the surroundings and appreciating the beauty of nature together. These experiences are part of what Melanie cherishes about spending time with her family, as it allows them to bond and create joyful memories.",
+      "golden_answer": "Roast marshmallows, tell stories",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "What country is Caroline's grandma from?",
+      "answer": "Caroline's grandma is from Sweden.",
+      "golden_answer": "Sweden",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What month in 2023 is Caroline's youth center hosting a talent show?",
+      "answer": "Caroline's youth center is hosting a talent show in September 2023.",
+      "golden_answer": "September 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Caroline go to the adoption meeting?",
+      "answer": "Caroline went to the council meeting for adoption on July 7, 2023.",
+      "golden_answer": "The friday before 15 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Caroline go biking with friends?",
+      "answer": "Caroline went biking with friends on September 9, 2023.",
+      "golden_answer": "The weekend before 13 September 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What does Melanie receive from her family?",
+      "answer": "Melanie receives love, support, joy, and motivation from her family. She expresses that her family's love and support have helped her through tough times, and she feels lucky to have them, as they bring her much joy and peace. Additionally, she cherishes the moments spent with her family, which she describes as making life worth it and contributing to her happiness.",
+      "golden_answer": "Strength and motivation",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Did Melanie make the black and white bowl in the photo?",
+      "answer": "No, Melanie did not make the black and white bowl in the photo. The bowl was made by a friend for Caroline's 18th birthday, which was ten years ago (event_time: 2013-06-27). The black and white design is part of this hand-painted bowl that Caroline treasures.",
+      "golden_answer": "Yes",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What workshop did Caroline attend recently?",
+      "answer": "Caroline attended an LGBTQ+ counseling workshop on June 23, 2023. The workshop focused on different therapeutic methods and how to best work with trans people, aiming to create a safe space for individuals in the LGBTQ+ community.",
+      "golden_answer": "LGBTQ+ counseling workshop",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What was the date of Caroline's visit to a pride parade in the summer?",
+      "answer": "Caroline attended a pride parade on June 30, 2023.",
+      "golden_answer": "The week before 3 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What precautionary sign did Melanie see at the caf\u00e9?",
+      "answer": "The context does not provide specific details about the precautionary sign that Melanie saw at the caf\u00e9. It only mentions that she had a good time at the caf\u00e9 last weekend where they had thoughtful signs. Therefore, I cannot provide an answer regarding the specific content of the precautionary sign.",
+      "golden_answer": "A sign stating that someone is not being able to leave",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What happened to Melanie's son on their road trip?",
+      "answer": "Melanie's son was involved in a road trip accident during the trip. Fortunately, he was okay after the accident, which was a very scary experience for the family. This incident served as a reminder for Melanie to cherish life and family.",
+      "golden_answer": "He got into an accident",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What field has Caroline chosen to work in?",
+      "answer": "Caroline has chosen to work in the field of counseling and mental health, specifically focusing on helping trans people accept themselves and supporting their mental health. She is passionate about making a positive impact through this work.",
+      "golden_answer": "counseling or mental health for Transgender people",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Who supports Caroline when she has a negative experience?",
+      "answer": "Caroline receives support from her friend Melanie, who has been there for her during difficult times. Additionally, Caroline is part of a supportive community, including the 'Connected LGBTQ Activists' group, which helps her feel accepted and provides encouragement. This network of friends and community members plays a crucial role in helping Caroline cope with negative experiences, such as the one she faced during a hike with closed-minded people.",
+      "golden_answer": "Her mentors, family, and friends",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "How did Melanie feel about her family after the accident?",
+      "answer": "After the accident, Melanie felt a deep appreciation for her family. She reflected on how much she needs them and emphasized the importance of cherishing life and family. The incident served as a reminder to her of the preciousness of life, reinforcing her belief that family is super important to her. She expressed gratitude for their love and support, which helped her through the tough experience. Overall, the accident deepened her appreciation for her family, highlighting their role as her biggest motivation and support.",
+      "golden_answer": "They are important and mean the world to her",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Melanie paint recently?",
+      "answer": "Melanie recently painted an abstract painting, as mentioned on October 13, 2023. Additionally, she did a horse painting on August 23, 2023, and shared a nature-inspired painting on August 25, 2023.",
+      "golden_answer": "sunset",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "Would Melanie be considered an ally to the transgender community?",
+      "answer": "Yes, Melanie would be considered an ally to the transgender community. She expresses strong support for Caroline's advocacy work, encourages inclusivity, and appreciates Caroline's efforts to educate others about trans individuals through her art. Melanie actively engages in conversations about LGBTQ rights and emphasizes the importance of community support, demonstrating her commitment to standing up for the rights and well-being of the transgender community.",
+      "golden_answer": "Yes, she is supportive",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "How did Melanie feel after the accident?",
+      "answer": "After the accident, Melanie felt a deep sense of gratitude and reflection. She expressed that the incident reminded her to cherish life and family, emphasizing how precious life is. Melanie thought a lot about how much she needs her family and recognized the importance of appreciating the moments they share together. Overall, the accident served as a poignant reminder for her to value her loved ones and the time they have together.",
+      "golden_answer": "Grateful and thankful for her family",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "How long has Melanie been creating art?",
+      "answer": "Melanie has been creating art for seven years.",
+      "golden_answer": "7 years",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Melanie do after the road trip to relax?",
+      "answer": "After the road trip, Melanie did something yesterday that the kids loved, which served as a nice way to relax. This event took place on October 19, 2023.",
+      "golden_answer": "Went on a nature walk or hike",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Who performed at the concert at Melanie's daughter's birthday?",
+      "answer": "Matt Patterson performed at the concert celebrating Melanie's daughter's birthday.",
+      "golden_answer": "Matt Patterson",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What month and year is Caroline attending the transgender conference?",
+      "answer": "Caroline is attending the transgender conference in July 2023.",
+      "golden_answer": "July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Caroline join a new activist group?",
+      "answer": "Caroline joined a new LGBTQ activist group on July 18, 2023.",
+      "golden_answer": "The Tuesday before 20 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What was the date of Caroline's attendance at the LGBTQ conference?",
+      "answer": "Caroline attended the LGBTQ conference on July 10, 2023.",
+      "golden_answer": "10 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+      "answer": "Yes, Melanie would likely enjoy the song \"The Four Seasons\" by Vivaldi. She is a fan of classical music, mentioning composers like Bach and Mozart, which indicates her appreciation for classical works. \"The Four Seasons\" is a well-known classical piece, and given her interest in this genre, it aligns with her musical tastes.",
+      "golden_answer": "Yes; it's classical music",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What was grandma's gift to Caroline?",
+      "answer": "Grandma's gift to Caroline was a special necklace that represents love, faith, and strength. This necklace stands for Caroline's roots in Sweden and was given to her when she was young.",
+      "golden_answer": "necklace",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What was the focus of Caroline's research?",
+      "answer": "Caroline's research has focused on adoption agencies. She has been looking into this since May 25, 2023, and has also contacted her mentor for adoption advice on October 13, 2023. Additionally, she has advised others to do research and find an adoption agency to help with the process.",
+      "golden_answer": "Adoption agencies",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What painting did Melanie show to Caroline on October 13, 2023?",
+      "answer": "On October 13, 2023, Melanie did not show a specific painting to Caroline; rather, Caroline asked if Melanie has any paintings to show, expressing interest in checking them out. The most recent painting that Melanie shared prior to this date was on August 25, 2023, when she shared a painting she did recently.",
+      "golden_answer": "A painting inspired by sunsets with a pink sky.",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What is Caroline's gender identity?",
+      "answer": "Caroline identifies as a trans woman.",
+      "golden_answer": "Transgender woman",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What did Caroline find in her neighborhood during her walk?",
+      "answer": "Caroline found a rainbow sidewalk for Pride Month in her neighborhood during her walk. This vibrant display served as a colorful symbol representing love and acceptance, inspiring her with its lively colors and positive message.",
+      "golden_answer": "a rainbow sidewalk",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What advice does Caroline give for getting started with adoption?",
+      "answer": "Caroline advises gathering necessary documents such as medical checks, financial information, and references for the adoption process. She also recommends doing research to find a lawyer and an adoption agency to help with the process and provide information.",
+      "golden_answer": "Do research, find an adoption agency or lawyer, gather necessary documents, and prepare emotionally.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What creative project do Mel and her kids do together besides pottery?",
+      "answer": "Mel and her kids engage in painting nature-inspired artwork together, which is a creative project they enjoy alongside pottery. Their latest painting was completed on July 17, 2023.",
+      "golden_answer": "painting",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What is Melanie's reason for getting into running?",
+      "answer": "Melanie is carving out some me-time each day by running, which serves as a form of self-care to refresh herself and stay present for her family.",
+      "golden_answer": "To de-stress and clear her mind",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What does Melanie say running has been great for?",
+      "answer": "Melanie says that running has been great for her mental health.",
+      "golden_answer": "Her mental health",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What book did Caroline recommend to Melanie?",
+      "answer": "The context does not specify the title of the book that Caroline recommended to Melanie. It only mentions that Melanie has been reading a book that Caroline recommended a while ago, but the specific name of the book is not provided in the memories.",
+      "golden_answer": "\"Becoming Nicole\"",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What does Melanie do to keep herself busy during her pottery break?",
+      "answer": "During her pottery break, Melanie mentioned that she is painting to keep busy. She expressed gratitude for Caroline's support during this time.",
+      "golden_answer": "Read a book and paint.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "How do Melanie and Caroline describe their journey through life together?",
+      "answer": "Melanie and Caroline describe their journey through life together as one of mutual support, encouragement, and shared experiences. They emphasize the importance of motivating and helping each other as they navigate life's challenges. Melanie expresses pride in being part of Caroline's journey and appreciates how Caroline makes life's struggles more bearable. Both friends acknowledge that while life can be tough, it is worth it when they have things that make them happy. They celebrate their friendship, recognizing the value of genuine relationships and the positive impact they have on each other's lives. Caroline feels grateful to have Melanie as a friend to share her journey, and they both find inspiration in each other's growth and determination to make a difference. Overall, their relationship is characterized by empathy, creativity, and a commitment to uplifting one another.",
+      "golden_answer": "An ongoing adventure of learning and growing.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What is Caroline excited about in the adoption process?",
+      "answer": "Caroline is excited about creating a loving family for kids who need one. She has expressed her enthusiasm for the adoption process, indicating that it is a way for her to give back and show love and acceptance. Additionally, she is thrilled to make a family for children who require a safe and loving home.",
+      "golden_answer": "creating a family for kids who need one",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Where has Melanie camped?",
+      "answer": "Melanie has camped in the mountains and in the forest. Specifically, she took her family camping in the mountains on June 20, 2023, and went on another camping trip in the forest with her family on July 15, 2023. Additionally, she mentioned going camping with her kids a few weeks ago, exploring the forest and hiking on August 30, 2023.",
+      "golden_answer": "beach, mountains, forest",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "On what date did Caroline become a member of a new activist group?",
+      "answer": "Caroline became a member of a new LGBTQ activist group on July 18, 2023.",
+      "golden_answer": "The Tuesday before 20 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Could you tell me who performed at the concert at Melanie's daughter's birthday?",
+      "answer": "The artist who performed at the concert celebrating Melanie's daughter's birthday was Matt Patterson.",
+      "golden_answer": "Matt Patterson",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "In what way did Melanie's children handle the accident?",
+      "answer": "Melanie's children handled the accident well, as implied by Caroline's inquiry about how the kids managed the situation. The context suggests that despite the frightening experience of the road trip accident, the children were able to cope with it, and Melanie reflected on their resilience and the importance of family during this challenging time.",
+      "golden_answer": "They were scared but resilient",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline draw a self-portrait?",
+      "answer": "There is no specific memory or fact that mentions Caroline drawing a self-portrait. Therefore, I cannot provide a date for when she drew a self-portrait.",
+      "golden_answer": "The week before 23 August 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie make a plate in pottery class?",
+      "answer": "Melanie made a plate in pottery class on August 24, 2023.",
+      "golden_answer": "24 August 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+      "answer": "Based on the provided context, it is likely that Caroline would not have the same desire to pursue counseling as a career if she hadn't received support growing up. Caroline's journey into counseling and mental health is deeply influenced by her personal experiences and the support she has received from her community. She has expressed that finding support is key and has emphasized the importance of having a support system, which has motivated her to help others who may be going through similar challenges. \n\nWithout the support she received, it is reasonable to infer that her understanding of the value of support and her passion for helping others might not have developed in the same way, potentially affecting her decision to pursue a career in counseling.",
+      "golden_answer": "Likely no",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What symbols are important to Caroline?",
+      "answer": "The important symbols to Caroline include:\n\n1. **Eagle** - Represents freedom and pride, symbolizing resilience for Caroline and others in the trans community, particularly in the context of the rainbow flag mural.\n2. **Rainbow Flag** - Reflects courage and strength of the trans community, holding significant meaning for Caroline.\n3. **Flowers** - Symbolize growth, beauty, and appreciation of small moments, and are also a part of her artistic expression.\n4. **Necklace** - Represents Caroline's roots in Sweden, which she treasures deeply.\n5. **Artworks** - Caroline's creations, such as the stained glass window, symbolize the key to discovering true potential and convey peace and serenity.\n\nThese symbols are integral to her identity and artistic expression.",
+      "golden_answer": "Rainbow flag, transgender symbol",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "When did Melanie go to the park?",
+      "answer": "Melanie went to the park on August 27, 2023.",
+      "golden_answer": "27 August 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "How did Melanie feel about her family supporting her?",
+      "answer": "Melanie feels deeply appreciative and grateful for her family's support. She has expressed that her family's love and support have helped her through tough times, and she considers them her rock, bringing her joy and peace. Melanie has stated that she feels lucky to have such a supportive family, which motivates her and gives her the strength to be courageous. Overall, her family is central to her happiness and well-being, and she values the love and connection they share.",
+      "golden_answer": "She appreciated them a lot",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Melanie do to keep herself busy during her pottery break?",
+      "answer": "During her pottery break, Melanie mentioned that she was painting to keep busy. This was noted in a memory where she thanked Caroline for her support and mentioned painting as an activity she engaged in.",
+      "golden_answer": "Read a book and paint.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline and Melanie go to a pride fesetival together?",
+      "answer": "Caroline and Melanie went to the Pride fest together on August 17, 2022.",
+      "golden_answer": 2022,
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What inspired Caroline's painting for the art show?",
+      "answer": "Caroline's painting for the art show was inspired by the amazing posters that showed so much pride and strength, as well as her visit to the beach, which helped her capture the peaceful and serene moment in her artwork. Additionally, she uses her art to express her feelings and advocate for the LGBTQ+ community, making her paintings a symbol of togetherness and acceptance.",
+      "golden_answer": "visiting an LGBTQ center and wanting to capture unity and strength",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What motivated Caroline to pursue counseling?",
+      "answer": "Caroline was motivated to pursue counseling due to her own struggles with mental health and the positive impact that counseling had on her life. She expressed a desire to help others who have gone through similar challenges, emphasizing the importance of having someone to talk to. Additionally, her experiences in support groups and her passion for making a difference and raising awareness for mental health further fueled her commitment to this career path. Caroline's journey of self-understanding and the support she received inspired her to use her story to help others, highlighting her empathy and understanding as key qualities that would benefit those she aims to support.",
+      "golden_answer": "her own journey and the support she received, and how counseling improved her life",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Melanie go to the museum?",
+      "answer": "Melanie went to the museum on July 5, 2023.",
+      "golden_answer": "5 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "How does Melanie prioritize self-care?",
+      "answer": "Melanie prioritizes self-care by carving out me-time each day through various activities that help her stay present and emotionally balanced. Specifically, she engages in playing her violin, running, and reading. She recognizes that looking after herself enables her to better care for her family and emphasizes the importance of self-care as a journey. Additionally, she participates in creative outlets like painting and pottery, which provide her with calmness and satisfaction, further supporting her mental health and well-being.",
+      "golden_answer": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What date is Melanie's daughter's birthday?",
+      "answer": "Melanie's daughter's birthday is on August 14, 2023.",
+      "golden_answer": "13 August",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "Can you tell me what Caroline's drawing symbolize for her?",
+      "answer": "Caroline's drawing symbolizes freedom, being real, and serves as a nudge to embrace her womanhood. She expresses that it stands for her authentic self and represents her journey of self-acceptance.",
+      "golden_answer": "Freedom and being true to herself.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Is it probable that Melanie will take another road trip in the near future?",
+      "answer": "Based on the provided context, it is probable that Melanie may take another road trip in the near future. She has expressed a love for family outings and camping trips, and her recent experiences, including a road trip that involved a scary accident, have reinforced her appreciation for family and the importance of cherishing those moments. Additionally, she has shown enthusiasm for exploring nature and spending quality time with her family, which suggests that she may plan more trips in the future. However, there is no explicit mention of a specific upcoming road trip in the memories.",
+      "golden_answer": "Likely no; since this one went badly",
+      "grade": false,
+      "category": 3
+    },
+    {
+      "question": "What do Melanie's kids like?",
+      "answer": "Melanie's kids enjoy a variety of activities, including exploring and playing at parks, going to the beach, participating in creative projects like painting and pottery, and spending time outdoors during camping trips. They particularly love nature and have memorable experiences such as roasting marshmallows around a campfire and hiking. Overall, they thrive on family activities that foster joy and connection.",
+      "golden_answer": "dinosaurs, nature",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What was the date of Caroline's speech at a school?",
+      "answer": "Caroline's speech at the school event took place on June 2, 2023.",
+      "golden_answer": "The week before 9 June 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "On what date did Caroline successfully complete the adoption interview?",
+      "answer": "Caroline successfully completed the adoption interview on October 20, 2023.",
+      "golden_answer": "The Friday before 22 October 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Where did Caroline move from 4 years ago?",
+      "answer": "Caroline moved from her home country, which is Sweden, 4 years ago.",
+      "golden_answer": "Sweden",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "How long has Caroline had her current group of friends for?",
+      "answer": "Caroline has known her current group of friends for 4 years, since she moved from her home country on June 9, 2023.",
+      "golden_answer": "4 years",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "In what way did Melanie's son handle the accident?",
+      "answer": "Melanie's son handled the accident by being okay after the incident, which was a very scary experience for the family. His well-being after the accident provided relief to Melanie and Caroline, emphasizing the importance of cherishing life and family.",
+      "golden_answer": "He was scared but reassured by his family",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What is the most recent painting that Melanie created?",
+      "answer": "The most recent painting that Melanie created is an abstract painting, which she mentioned on October 13, 2023.",
+      "golden_answer": "sunset",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "What year did Caroline and Melanie attend a pride festival together?",
+      "answer": "Caroline and Melanie attended a pride festival together in 2022.",
+      "golden_answer": 2022,
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Why did Melanie choose to use colors and patterns in her pottery project?",
+      "answer": "Melanie chose to use colors and patterns in her pottery project because they are inspired by sunsets, which make her feel calm. She finds that the colors contribute to her emotional expression and help create a sense of peace in her artwork.",
+      "golden_answer": "She wanted to catch the eye and make people smile.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What fields would Caroline be likely to pursue in her educaton?",
+      "answer": "Caroline is likely to pursue fields in counseling and mental health. She has expressed a keen interest in working in mental health and is actively exploring career options in counseling to help others. Additionally, she is planning to continue her education in these areas to support individuals facing mental health challenges.",
+      "golden_answer": "Psychology, counseling certification",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "Could you tell me what Melanie's pets' names?",
+      "answer": "Melanie has two pets: a cat named Bailey and another cat named Oliver.",
+      "golden_answer": "Oliver, Luna, Bailey",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What kind of place does Caroline want to create for people?",
+      "answer": "Caroline wants to create a safe and loving home for kids who need it. She is deeply committed to adopting children and providing them with a supportive environment where they can experience love and acceptance. Caroline's goal is to build a family that offers a nurturing space for children who have not had that before.",
+      "golden_answer": "a safe and inviting place for people to grow",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Mel and her kids make during the pottery workshop?",
+      "answer": "During the pottery workshop, Mel and her kids created pottery items, as indicated by the fact that they participated in a pottery workshop where they had fun getting their hands dirty and making something with clay. The specific details of what they made are not mentioned, but it is clear that they engaged in creating pottery together.",
+      "golden_answer": "pots",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "For what reason did Caroline choose the adoption agency?",
+      "answer": "Caroline chose the adoption agency because they help LGBTQ+ folks with adoption, and their inclusivity and support really spoke to her. This decision reflects her commitment to creating a loving and accepting environment for children in need.",
+      "golden_answer": "because of their inclusivity and support for LGBTQ+ individuals",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Melanie do after the road trip to relax?",
+      "answer": "After the road trip, Melanie did something that the kids loved, which served as a nice way to relax. This event took place on October 19, 2023, the day after the road trip was mentioned.",
+      "golden_answer": "Went on a nature walk or hike",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What musical artists/bands has Melanie seen?",
+      "answer": "Melanie mentioned seeing Matt Patterson, who she described as talented with an amazing voice and songs, on August 14, 2023. There are no other specific musical artists or bands mentioned that she has seen.",
+      "golden_answer": "Summer Sounds, Matt Patterson",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "How often does Melanie go to the beach with her kids?",
+      "answer": "Melanie typically goes to the beach with her kids only once or twice a year. These beach visits are special occasions for the family, allowing them to spend quality time together and relax.",
+      "golden_answer": "once or twice a year",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Would Melanie be considered a member of the LGBTQ community?",
+      "answer": "Based on the provided context, there is no explicit evidence that Melanie identifies as a member of the LGBTQ community. While she is a supportive friend to Caroline, who is part of the LGBTQ community, and actively engages in discussions about LGBTQ issues, her own sexual orientation or gender identity is not mentioned. Therefore, it cannot be concluded that Melanie is a member of the LGBTQ community.",
+      "golden_answer": "Likely no, she does not refer to herself as part of it",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What type of mental health support does Caroline want to provide?",
+      "answer": "Caroline wants to provide counseling and mental health support specifically aimed at helping trans people accept themselves and support their mental health. She is motivated by her own experiences and the positive impact that support groups have had on her life. Caroline aims to create a safe and inviting space for individuals facing similar challenges, emphasizing the importance of having someone to talk to and a strong support system.",
+      "golden_answer": "working with trans people, helping them accept themselves and supporting their mental health",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What types of pottery have Melanie and her kids made?",
+      "answer": "Melanie and her kids have made pottery creations during their pottery workshops, which they find fun and therapeutic. Specific types of pottery mentioned include pieces created in pottery class, as well as nature-inspired artwork that they have been painting together. While the exact types of pottery are not detailed, the emphasis is on their creative expressions through pottery and painting, reflecting their shared love for art and nature.",
+      "golden_answer": "bowls, cup",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "When did Melanie sign up for a pottery class?",
+      "answer": "Melanie signed up for a pottery class on July 2, 2023.",
+      "golden_answer": "2 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Can you tell me what the charity race raise awareness for?",
+      "answer": "The charity race raises awareness for mental health.",
+      "golden_answer": "mental health",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Would Caroline pursue writing as a career option?",
+      "answer": "Based on the provided context, there is no explicit mention of Caroline pursuing writing as a career option. The facts indicate that she is exploring career options in counseling and mental health, expressing a desire to help people who have gone through similar experiences. Therefore, it cannot be concluded that writing is a career option she is considering. \n\nFinal Answer: No, Caroline is not pursuing writing as a career option; she is focused on counseling and mental health careers.",
+      "golden_answer": "LIkely no; though she likes reading, she wants to be a counselor",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What did the charity race raise awareness for?",
+      "answer": "The charity race raised awareness for mental health.",
+      "golden_answer": "mental health",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Caroline make for a local church?",
+      "answer": "Caroline made a stained glass window for a local church. This event occurred on August 25, 2023.",
+      "golden_answer": "a stained glass window",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline go to the LGBTQ support group?",
+      "answer": "Caroline went to the LGBTQ support group on May 7, 2023.",
+      "golden_answer": "7 May 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Could you tell me who supports Caroline when she has a negative experience?",
+      "answer": "Caroline receives support from her friends, particularly Melanie, as well as from the members of her support group, which includes the 'Connected LGBTQ Activists.' These individuals uplift and accept her, helping her cope with negative experiences, such as the one she faced during a hike with closed-minded people on August 17, 2023. Caroline has expressed that having people around her who accept and support her makes a significant difference in her life.",
+      "golden_answer": "Her mentors, family, and friends",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What did Melanie and her family see during their camping trip last year?",
+      "answer": "During their camping trip last year, Melanie and her family saw the Perseid meteor shower. This event took place on January 1, 2022.",
+      "golden_answer": "Perseid meteor shower",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What subject have Caroline and Melanie both painted?",
+      "answer": "Caroline and Melanie have both painted flowers. This is evidenced by the memory that states, \"Melanie and Caroline found these lovely flowers while painting,\" which occurred on July 15, 2023.",
+      "golden_answer": "Sunsets",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "In what way did Melanie feel about her family after the accident?",
+      "answer": "After the accident, Melanie felt that her family is super important to her and reflected deeply on the need to cherish life and family. She expressed gratitude that her son was okay and acknowledged that the incident served as a reminder of the preciousness of life. Melanie stated that her family's love and support really helped her through tough times, reinforcing her appreciation for them as her biggest motivation and support. Overall, the accident deepened her appreciation for her family and highlighted their role as her rock.",
+      "golden_answer": "They are important and mean the world to her",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When is Caroline going to the transgender conference?",
+      "answer": "Caroline is going to the transgender conference on July 1, 2023.",
+      "golden_answer": "July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie paint a sunrise?",
+      "answer": "Melanie painted the lake sunrise on January 1, 2022.",
+      "golden_answer": 2022,
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What does Melanie think about Caroline's decision to adopt?",
+      "answer": "Melanie is very supportive of Caroline's decision to adopt. She wishes Caroline the best on her adoption journey and congratulates her for taking this significant step. Melanie expresses that Caroline's future family will be lucky to have her, highlighting her belief in Caroline's kindness and the positive impact she will have as a parent.",
+      "golden_answer": "she thinks Caroline is doing something amazing and will be an awesome mom",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "How many times has Melanie gone to the beach in 2023?",
+      "answer": "Melanie has gone to the beach once in 2023. The context mentions that beach trips are special occasions for her family, typically occurring only once or twice a year. However, there is only one specific mention of a recent beach visit where the family had an awesome experience. Therefore, the answer is one time.",
+      "golden_answer": 2,
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+      "answer": "Caroline is interested in pursuing counseling and mental health services that focus on helping trans people accept themselves and support their mental health. She has expressed a desire to work with individuals who have gone through similar experiences as her, aiming to provide a safe and supportive environment for those in need.",
+      "golden_answer": "working with trans people, helping them accept themselves and supporting their mental health",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What personality traits might Melanie say Caroline has?",
+      "answer": "Melanie might describe Caroline as caring, empathetic, supportive, strong, inspiring, and dedicated. She appreciates Caroline's ability to provide love and stability, her kindness in taking in kids in need, and her determination to make a difference through her journey. Melanie also recognizes Caroline's passion for helping others and her ability to make life's struggles more bearable, highlighting her positive impact on those around her.",
+      "golden_answer": "Thoughtful, authentic, driven",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What was Melanie's favorite book from her childhood?",
+      "answer": "Melanie's favorite book from her childhood was \"Charlotte's Web.\"",
+      "golden_answer": "\"Charlotte's Web\"",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What does Melanie do to destress?",
+      "answer": "Melanie destresses by engaging in various activities that promote relaxation and self-expression. She finds calmness in painting and pottery, describing these artistic pursuits as therapeutic and satisfying. Additionally, she carves out me-time each day by playing her violin, running, and reading. Spending time in nature, such as hiking in the mountains and exploring forests, also helps her find peace and serenity. Overall, these creative and nature-based activities contribute to her emotional well-being and help her manage stress.",
+      "golden_answer": "Running, pottery",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What date did Melanie enroll in a pottery class?",
+      "answer": "Melanie enrolled in a pottery class on July 2, 2023.",
+      "golden_answer": "2 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "On what date did Melanie purchase the figurines?",
+      "answer": "There is no information in the provided memories regarding Melanie purchasing figurines. Therefore, I cannot provide a specific date for that event.",
+      "golden_answer": "21 October 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "What did Melanie realize after the charity race?",
+      "answer": "After the charity race, Melanie realized the importance of taking care of mental health. She found the experience very rewarding, which made her reflect more deeply on mental well-being.",
+      "golden_answer": "self-care is important",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Which  classical musicians does Melanie enjoy listening to?",
+      "answer": "Melanie enjoys listening to classical musicians such as Bach and Mozart.",
+      "golden_answer": "Bach and Mozart",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What were Melanie's feelings following the accident?",
+      "answer": "Following the accident, Melanie felt a deep appreciation for life and family. She expressed that the incident reminded her that life is precious and emphasized the importance of cherishing her loved ones. Additionally, she reflected on how much she needs her family, indicating that the experience prompted her to think a lot about her relationships and the support they provide. Overall, the accident served as a significant reminder for her to value her family and the moments they share together.",
+      "golden_answer": "Grateful and thankful for her family",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "On what date did Melanie create a plate in her pottery class?",
+      "answer": "Melanie created a plate in her pottery class on August 24, 2023.",
+      "golden_answer": "24 August 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "How did Melanie's children handle the accident?",
+      "answer": "Melanie's children handled the accident well, as implied by Caroline's inquiry about how they managed the situation. The accident was described as a scary experience for the family, but ultimately, Melanie's son was okay after the incident. This suggests that the children coped with the event positively, despite the initial fear it caused.",
+      "golden_answer": "They were scared but resilient",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What transgender-specific events has Caroline attended?",
+      "answer": "Caroline has attended the following transgender-specific events:\n\n1. **Transgender Poetry Reading** - This event took place on October 13, 2023, where transgender people shared their stories through poetry, providing a safe space for self-expression.\n\n2. **Transgender Conference** - Caroline attended this conference in July 2023, where she was excited to meet others in the community and learn more about advocacy.\n\n3. **LGBTQ+ Counseling Workshop** - Although not exclusively a transgender event, this workshop, attended on June 23, 2023, focused on therapeutic methods for working with trans individuals and aimed to create a safe space for the LGBTQ+ community.\n\n4. **LGBTQ Support Group** - Caroline has participated in this group, which has provided her with support and inspiration related to her transgender journey.\n\nThese events reflect Caroline's active involvement in the transgender community and her commitment to advocacy and support.",
+      "golden_answer": "Poetry reading, conference",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Could you tell me what Melanie's hand-painted bowl a reminder of?",
+      "answer": "Melanie's hand-painted bowl is a reminder of self-expression and peace.",
+      "golden_answer": "art and self-expression",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What pet does Caroline have?",
+      "answer": "Caroline has a pet guinea pig named Oscar.",
+      "golden_answer": "guinea pig",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Who is Melanie a fan of in terms of modern music?",
+      "answer": "Melanie is a fan of Ed Sheeran, particularly his song \"Perfect.\"",
+      "golden_answer": "Ed Sheeran",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Why did Caroline choose the adoption agency?",
+      "answer": "Caroline chose the adoption agency because they help LGBTQ+ folks with adoption, and their inclusivity and support really spoke to her. This decision reflects her commitment to finding an agency that aligns with her values and the needs of the community she identifies with.",
+      "golden_answer": "because of their inclusivity and support for LGBTQ+ individuals",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "How long have Mel and her husband been married?",
+      "answer": "Mel and her husband got married on June 9, 2023. Since today is October 20, 2023, they have been married for 4 months and 11 days.",
+      "golden_answer": "Mel and her husband have been married for 5 years.",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "For what reason did Melanie choose to use colors and patterns in her pottery project?",
+      "answer": "Melanie chose to use colors and patterns in her pottery project to create a calming effect, as she mentioned that her piece is inspired by sunsets, which make her feel calm. She specifically wanted peaceful blue streaks in the painting, indicating her intention to evoke tranquility through her color choices.",
+      "golden_answer": "She wanted to catch the eye and make people smile.",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Would Melanie be more interested in going to a national park or a theme park?",
+      "answer": "Melanie would be more interested in going to a national park. She loves camping trips, enjoys hiking in the mountains, and values spending time in nature, as indicated by her various activities and experiences related to exploring forests and connecting with nature. This suggests a strong preference for outdoor and nature-related experiences over theme parks.",
+      "golden_answer": "National park; she likes the outdoors",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What was the date of Caroline's picnic?",
+      "answer": "The context provided does not contain any specific mention of a picnic or its date. Therefore, I cannot provide a date for Caroline's picnic based on the available information.",
+      "golden_answer": "The week before 6 July 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "How many children does Melanie have?",
+      "answer": "Melanie has three children.",
+      "golden_answer": 3,
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What are the new shoes that Melanie got used for?",
+      "answer": "The provided context does not contain any information regarding new shoes that Melanie got or their intended use. Therefore, I cannot provide an answer to the question about the new shoes.",
+      "golden_answer": "Running",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Would Caroline want to move back to her home country soon?",
+      "answer": "Based on the provided memories, there is no explicit indication that Caroline wants to move back to her home country, Sweden, soon. The memories primarily focus on her current activities, aspirations related to family and adoption, and her involvement in the community. While Caroline's grandma is mentioned as being in Sweden, there is no mention of Caroline's desire to relocate there in the near future. Therefore, the answer is:\n\nNo, Caroline does not express a desire to move back to her home country soon.",
+      "golden_answer": "No; she's in the process of adopting children.",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "Could you tell me what Melanie's reason for getting into running?",
+      "answer": "Melanie's reason for getting into running is to carve out some me-time each day, which helps her refresh herself and stay present for her family. Additionally, she finds that running can boost her mood, as encouraged by her friend Caroline.",
+      "golden_answer": "To de-stress and clear her mind",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What type of artwork did Caroline show to Melanie on October 13, 2023?",
+      "answer": "On October 13, 2023, Caroline expressed interest in checking out Melanie's paintings, but there is no specific mention of the type of artwork Caroline showed to Melanie on that date. The context indicates that they were discussing art, but it does not provide details about any specific artwork that Caroline displayed.",
+      "golden_answer": "An abstract painting with blue streaks on a wall.",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Caroline's necklace symbolize?",
+      "answer": "Caroline's necklace symbolizes her roots in Sweden, representing love, faith, and strength. It serves as a meaningful reminder of her family love and support, as it was a gift from her grandmother.",
+      "golden_answer": "love, faith, and strength",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline go to a pride parade during the summer?",
+      "answer": "Caroline went to a pride parade during the summer on June 26, 2023.",
+      "golden_answer": "The week before 3 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Could you tell me what some changes Caroline has faced during her transition journey?",
+      "answer": "During her transition journey, Caroline has faced several significant changes, including:\n\n1. **Self-Discovery and Acceptance**: Caroline has explored her gender identity and embraced herself as a transgender woman. This journey has involved a deep process of self-discovery and acceptance, supported by her involvement in a support group that has given her courage.\n\n2. **Art as Expression**: Caroline has used art as a vital means to explore her transition and express her changing body and identity. She has described creating art as really important during her transition, allowing her to convey her experiences and emotions.\n\n3. **Support from Family and Friends**: Caroline has received substantial help from her family and friends throughout her transition. She appreciates their support, which has been crucial in her journey towards acceptance and personal growth.\n\n4. **Community Engagement**: Caroline has actively participated in community events, such as sharing her transgender journey at school events and mentoring young people. This engagement has helped her build genuine relationships and foster a sense of belonging.\n\n5. **Mental Health Awareness**: Caroline has developed a passion for mental health, driven by her own experiences. She is exploring career opportunities in counseling and mental health to provide support to others facing similar challenges.\n\n6. **Future Aspirations**: Caroline is preparing to adopt children, reflecting her desire to create a loving family. This aspiration signifies a significant change in her life goals and personal identity.\n\nOverall, Caroline's transition journey has been marked by personal growth, artistic expression, and a strong support network, all contributing to her evolving identity and aspirations.",
+      "golden_answer": "Changes to her body, losing unsupportive friends",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What has Melanie painted?",
+      "answer": "Melanie has painted several artworks, including:\n\n1. A lake sunrise (painted last year on January 1, 2022).\n2. A horse painting (recently completed on August 23, 2023).\n3. Nature-inspired paintings with her kids, which they finished recently (on July 17, 2023).\n4. An abstract painting (shared on October 13, 2023).\n\nAdditionally, she has expressed her love for painting landscapes and still life, indicating that these are her favorite subjects.",
+      "golden_answer": "Horse, sunset, sunrise",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What setback did Melanie face in October 2023?",
+      "answer": "In October 2023, Melanie faced a setback when she got hurt, which caused her to take a break from pottery. This event was noted on September 1, 2023, but it was mentioned in the context of her well-being and concerns expressed by Caroline on October 13, 2023.",
+      "golden_answer": "She got hurt and had to take a break from pottery.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What is Caroline's identity?",
+      "answer": "Caroline identifies as a trans woman.",
+      "golden_answer": "Transgender woman",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Which artwork did Melanie present to Caroline on October 13, 2023?",
+      "answer": "On October 13, 2023, Melanie expressed her gratitude to Caroline for her support and mentioned that she had finished another pottery project. However, there is no specific mention of a particular artwork being presented to Caroline on that date. The conversation included discussions about art, but no specific artwork was highlighted as being shown to Caroline on that day.",
+      "golden_answer": "A painting inspired by sunsets with a pink sky.",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline join a mentorship program?",
+      "answer": "Caroline joined a mentorship program for LGBTQ youth on July 8, 2023.",
+      "golden_answer": "The weekend before 17 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What is Caroline's relationship status?",
+      "answer": "Caroline plans to be a single parent, indicating that she is not currently in a romantic relationship.",
+      "golden_answer": "Single",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Can you tell me what Caroline find in her neighborhood during her walk?",
+      "answer": "Caroline found a rainbow sidewalk for Pride Month during her walk in her neighborhood. This vibrant and welcoming display serves as a colorful symbol of love and acceptance, inspiring her with its lively colors and positive message.",
+      "golden_answer": "a rainbow sidewalk",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Caroline make for a local church?",
+      "answer": "Caroline made a stained glass window for a local church on August 25, 2023.",
+      "golden_answer": "a stained glass window",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what the posters at the poetry reading say?",
+      "answer": "The memories do not provide specific details about the content of the posters at the poetry reading. However, they are described as amazing, full of pride and strength, and contributing to an electrifying atmosphere of energy and support in the room. They inspired Caroline to create some art, highlighting their motivational and uplifting impact.",
+      "golden_answer": "\"Trans Lives Matter\"",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline apply to adoption agencies?",
+      "answer": "Caroline applied to adoption agencies on August 23, 2023.",
+      "golden_answer": "The week of 23 August 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Can you tell me what Mel and her kids paint in their latest project in July 2023?",
+      "answer": "In their latest project in July 2023, Mel and her kids worked on nature-inspired paintings. This creative activity was part of their broader interest in art, which they enjoy doing together. The specific date of this project was July 15, 2023, when they were involved in painting together.",
+      "golden_answer": "a sunset with a palm tree",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What events has Caroline participated in to help children?",
+      "answer": "Caroline has participated in several events to help children, including:\n\n1. **Volunteering at an LGBTQ+ youth center**: Caroline has been actively involved in supporting and connecting with young people facing challenges at this center since August 28, 2023.\n\n2. **Putting together a talent show for the kids**: She is organizing this event for the children at the youth center, also noted on August 28, 2023.\n\n3. **Participating in a mentorship program for LGBTQ youth**: Caroline has engaged in this community initiative, which provides support and guidance to young LGBTQ individuals, emphasizing her commitment to helping children in need.\n\n4. **Attending a council meeting focused on adoption**: This event inspired her determination to adopt children, further showcasing her dedication to providing a loving home for kids who need it.\n\nThese activities reflect Caroline's passion for helping children and her commitment to creating a supportive environment for them.",
+      "golden_answer": "Mentoring program, school speech",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Can you tell me what Caroline take away from the book \"Becoming Nicole\"?",
+      "answer": "Caroline took away the message that love exists and the importance of self-acceptance from the book \"Becoming Nicole\" by Amy Ellis Nutt. The book inspired her and provided a sense of connection and hope, teaching her that tough times don't last and that finding support is crucial. This sense of hope motivated her to explore counseling and mental health careers to support others on their journeys.",
+      "golden_answer": "Lessons on self-acceptance and finding support",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When is Melanie's daughter's birthday?",
+      "answer": "Melanie's daughter's birthday is on August 13, 2023. This is inferred from the fact that Melanie celebrated her daughter's birthday with a concert on August 14, 2023, which indicates that the birthday itself was the day before, August 13, 2023.",
+      "golden_answer": "13 August",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What date did Melanie visit the park?",
+      "answer": "The specific date when Melanie visited the park is not provided in the memories. However, it is mentioned that her kids went to the beach recently on July 20, 2023, and she went camping with her family two weekends ago from the timestamp of July 3, 2023. Since there is no direct mention of a park visit with a specific date, I cannot provide an exact date for when Melanie visited the park.",
+      "golden_answer": "27 August 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie go on a hike after the roadtrip?",
+      "answer": "Melanie went on a hike after the road trip on October 19, 2023. This is inferred from the memory stating that she did something enjoyable with the kids the day after the road trip, which was completed on October 20, 2023.",
+      "golden_answer": "19 October 2023",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What activities has Melanie done with her family?",
+      "answer": "Melanie has engaged in several activities with her family, including:\n\n1. **Camping Trips**: Melanie has taken her family camping in the forest (July 15, 2023) and in the mountains (June 20, 2023). They enjoyed exploring nature, hiking, and spending quality time together during these trips.\n\n2. **Park Visits**: Recently, on August 27, 2023, Melanie took her kids to a park where they had fun exploring and playing.\n\n3. **Volunteering**: Melanie spent a day volunteering with her family at a homeless shelter on August 24, 2023, which was a meaningful experience for them.\n\n4. **Family Moments**: Melanie cherishes various family moments, including spending time together, playing games, and enjoying meals, which contribute to their happiness and bonding.\n\n5. **Art Activities**: Melanie shares her passion for art with her kids, engaging in painting and pottery together, which they find calming and enjoyable.\n\nThese activities highlight Melanie's commitment to creating joyful and meaningful experiences with her family.",
+      "golden_answer": "Pottery, painting, camping, museum, swimming, hiking",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Whose birthday did Melanie celebrate recently?",
+      "answer": "Melanie celebrated her daughter's birthday recently. The celebration took place on August 14, 2023, and included a concert.",
+      "golden_answer": "Melanie's daughter",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Which group of people does the adoption agency that Caroline is looking into assist?",
+      "answer": "The adoption agency that Caroline is looking into assists LGBTQ+ folks with adoption. Caroline chose this agency because their inclusivity and support for the LGBTQ+ community resonated with her.",
+      "golden_answer": "LGBTQ+ individuals",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Melanie read the book \"nothing is impossible\"?",
+      "answer": "There is no mention of Melanie reading a book titled \"nothing is impossible\" in the provided memories. The only book referenced is \"Becoming Nicole\" by Amy Ellis Nutt, which Melanie finds inspiring, and a book she read last year that reminds her to pursue her dreams. Therefore, I cannot provide a specific date for when Melanie read \"nothing is impossible\" as it is not included in the context.",
+      "golden_answer": 2022,
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "What was discussed in the LGBTQ+ counseling workshop?",
+      "answer": "The LGBTQ+ counseling workshop discussed different therapeutic methods and how to best work with trans people. It aimed to create a safe space for individuals in the LGBTQ+ community, focusing on promoting acceptance and addressing the mental health needs of trans individuals. The workshop was described as enlightening and showcased the passion of professionals dedicated to supporting the mental health and self-acceptance of trans people.",
+      "golden_answer": "therapeutic methods and how to best work with trans people",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Caroline meet up with her friends, family, and mentors?",
+      "answer": "Caroline met up with her friends, family, and mentors during a wicked day out with the gang last weekend, which occurred on September 9, 2023.",
+      "golden_answer": "The week before 9 June 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "Could you tell me what the new shoes that Melanie got used for?",
+      "answer": "The provided context does not contain any information about new shoes that Melanie got or their intended use. Therefore, I cannot provide an answer regarding the new shoes.",
+      "golden_answer": "Running",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "Why are flowers important to Melanie?",
+      "answer": "Flowers are important to Melanie because they were a significant part of her wedding decor, symbolizing joy, growth, and beauty. They serve as a reminder to appreciate the small moments in life. Additionally, Melanie and Caroline have shared experiences involving flowers while painting, which highlights their role in bonding and connecting with nature. Overall, flowers represent emotional connections and the beauty of life's moments for Melanie.",
+      "golden_answer": "They remind her to appreciate the small moments and were a part of her wedding decor",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What kind of art does Caroline make?",
+      "answer": "Caroline creates paintings, particularly focusing on abstract art as a form of self-expression. Her artwork reflects her journey as a trans woman, using colors and themes to explore her identity and emotions. She has expressed that creating art is crucial for her self-discovery and acceptance, and she often draws inspiration from nature and personal experiences. Caroline's art serves as a means to communicate her feelings and advocate for the LGBTQ+ community.",
+      "golden_answer": "abstract art",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Can you tell me what Mel and her kids make during the pottery workshop?",
+      "answer": "During the pottery workshop, Mel and her kids create their own pots. This activity allows for creative expression and family bonding, and Melanie described the experience as fun and therapeutic.",
+      "golden_answer": "pots",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What LGBTQ+ events has Caroline participated in?",
+      "answer": "Caroline has participated in several LGBTQ+ events, including:\n\n1. **LGBTQ+ Pride Parade** - She attended this event on June 26, 2023, where she felt a strong sense of belonging to the community.\n2. **LGBTQ+ Counseling Workshop** - Caroline attended this workshop on June 23, 2023, which focused on therapeutic methods for working with trans individuals.\n3. **LGBTQ Support Group** - She participated in this group on May 7, 2023, where she found it to be a powerful experience.\n4. **LGBTQ Conference** - Caroline attended this conference on July 10, 2023, and described the experience as really special.\n5. **School Event** - She talked about her transgender journey and encouraged students to get involved in the LGBTQ community at a school event on June 2, 2023.\n\nAdditionally, Caroline is preparing for an **LGBTQ Art Show** scheduled for July 17, 2023, where she will showcase her paintings.",
+      "golden_answer": "Pride parade, school speech, support group",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What was the timeframe of Caroline's negative experience with people during a hike?",
+      "answer": "Caroline's negative experience with people during a hike occurred on August 17, 2023. She mentioned that she had a not-so-great experience on that date with a group of religious conservatives who said something that upset her. Additionally, she apologized to Mel for getting into a bad spot with some people during a hike last week, which would place that event around August 18, 2023. Therefore, the timeframe of her negative experience is specifically August 17 to August 18, 2023.",
+      "golden_answer": "The week before 25 August 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What instruments does Melanie play?",
+      "answer": "Melanie plays the clarinet and the violin.",
+      "golden_answer": "clarinet and violin",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "When did Caroline go to the LGBTQ conference?",
+      "answer": "Caroline went to the LGBTQ conference on July 10, 2023.",
+      "golden_answer": "10 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Would Caroline be considered religious?",
+      "answer": "Based on the provided context, there is no explicit evidence to suggest that Caroline identifies as religious. While she has created artwork for a local church, this does not necessarily indicate her personal religious beliefs. The context primarily focuses on her advocacy for LGBTQ rights, her community involvement, and her personal journey as a transgender woman. Therefore, it cannot be definitively concluded that Caroline would be considered religious.",
+      "golden_answer": "Somewhat, but not extremely religious",
+      "grade": false,
+      "category": 3
+    },
+    {
+      "question": "What was the poetry reading that Caroline attended about?",
+      "answer": "The poetry reading that Caroline attended was a transgender poetry reading where transgender people shared their stories through poetry. It provided a safe space for self-expression and was described as empowering to hear others share and celebrate their identities. This event took place on October 13, 2023.",
+      "golden_answer": "It was a transgender poetry reading where transgender people shared their stories.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Caroline take away from the book \"Becoming Nicole\"?",
+      "answer": "Caroline took away a sense of hope and the importance of self-acceptance from the book \"Becoming Nicole\" by Amy Ellis Nutt. The book inspired her and provided a connection to her own journey, reinforcing the idea that finding support is key during challenging times.",
+      "golden_answer": "Lessons on self-acceptance and finding support",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What was Melanie's reaction to her family's support?",
+      "answer": "Melanie expressed that her family's love and support really helped her through tough times. She described feeling lucky to have her family, stating they bring her much joy and love. Additionally, she cherishes the time spent with her family, as it is when she truly feels alive and happy. Overall, Melanie views her family as her rock and a central source of motivation and peace in her life.",
+      "golden_answer": "She appreciated them a lot",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When did Melanie go camping in June?",
+      "answer": "Melanie went camping in June on June 20, 2023.",
+      "golden_answer": "The week before 27 June 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What is Melanie's hand-painted bowl a reminder of?",
+      "answer": "Melanie's hand-painted bowl is a reminder of self-expression and peace.",
+      "golden_answer": "art and self-expression",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What was the date of Melanie's family's road trip?",
+      "answer": "The date of Melanie's family's road trip was October 19, 2023. This is inferred from the fact that the road trip accident involving her son occurred this past weekend, which is recorded as October 20, 2023. Therefore, the road trip took place the day before, on October 19, 2023.",
+      "golden_answer": "The weekend before 20 October 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What career path has Caroline decided to persue?",
+      "answer": "Caroline has decided to pursue a career in counseling and mental health. She is keen on helping others, particularly focusing on supporting trans individuals in accepting themselves and improving their mental health. Caroline has been actively looking into counseling jobs and exploring various mental health career options since at least May 2023.",
+      "golden_answer": "counseling or mental health for Transgender people",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "When did Caroline have a picnic?",
+      "answer": "There is no mention of Caroline having a picnic in the provided memories. Therefore, I cannot provide a specific date for when Caroline had a picnic.",
+      "golden_answer": "The week before 6 July 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "When is Caroline's youth center putting on a talent show?",
+      "answer": "The talent show organized by Caroline for the kids at the youth center is scheduled for September 28, 2023.",
+      "golden_answer": "September 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "In what way did Melanie feel while watching the meteor shower?",
+      "answer": "Melanie felt so at one with the universe while watching the Perseid meteor shower, experiencing a sense of awe and connection to the universe. This feeling was described as breathtaking, highlighting the profound impact the event had on her.",
+      "golden_answer": "in awe of the universe",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Melanie and her family do while camping?",
+      "answer": "While camping, Melanie and her family explored the forest, hiked, roasted marshmallows, and shared stories around the campfire. These activities allowed them to bond and create memorable experiences together.",
+      "golden_answer": "explored nature, roasted marshmallows, and went on a hike",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "Can you tell me what Melanie do to destress?",
+      "answer": "Melanie destresses by engaging in various activities that she finds calming and fulfilling. She carves out me-time each day by running, playing her violin, and reading. Additionally, she enjoys pottery and painting, which serve as creative outlets and forms of therapy for her. These activities help her express her emotions and maintain peace in her life.",
+      "golden_answer": "Running, pottery",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "Where did Oliver hide his bone once?",
+      "answer": "Oliver hid his bone in my slipper.",
+      "golden_answer": "In Melanie's slipper",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "In what ways is Caroline participating in the LGBTQ community?",
+      "answer": "Caroline is actively participating in the LGBTQ community in several meaningful ways:\n\n1. **Advocacy and Support**: Caroline encourages students to get involved in the LGBTQ community at school events, sharing her own experiences to inspire others. She has expressed a desire to help make a difference in LGBTQ rights and has been described as brave for speaking up for the trans community.\n\n2. **Volunteering**: She has volunteered at an LGBTQ+ youth center, where she finds fulfillment in supporting and connecting with young people facing challenges. Additionally, she joined a mentorship program for LGBTQ youth, which aims to provide guidance and support.\n\n3. **Artistic Expression**: Caroline uses her art to advocate for the LGBTQ+ community, creating paintings that symbolize self-acceptance and freedom. She is preparing to showcase her work at an upcoming LGBTQ art show, highlighting the importance of art in promoting love and acceptance.\n\n4. **Participation in Events**: Caroline has attended various LGBTQ events, including pride parades and a transgender conference, where she connected with others in the community and learned more about advocacy. She has also attended an LGBTQ+ counseling workshop to enhance her understanding of therapeutic methods for supporting trans individuals.\n\n5. **Community Engagement**: Caroline is a member of the group 'Connected LGBTQ Activists,' where she collaborates with others to plan events and campaigns focused on supporting LGBTQ rights. She actively participates in discussions about LGBTQ rights and the importance of community support.\n\nThrough these activities, Caroline demonstrates her commitment to fostering a supportive and inclusive environment for the LGBTQ community.",
+      "golden_answer": "Joining activist group, going to pride parades, participating in an art show, mentoring program",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "How long ago was Caroline's 18th birthday?",
+      "answer": "Caroline's 18th birthday was ten years ago. Since the current date is October 22, 2023, her 18th birthday would have been on October 22, 2013. Therefore, Caroline's 18th birthday was ten years ago from today.",
+      "golden_answer": "10 years ago",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What type of individuals does the adoption agency Caroline is considering support?",
+      "answer": "The adoption agency Caroline is considering supports LGBTQ+ individuals with adoption. Caroline chose this agency because their inclusivity and support for LGBTQ+ folks resonated with her.",
+      "golden_answer": "LGBTQ+ individuals",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What did Caroline see at the council meeting for adoption?",
+      "answer": "At the council meeting for adoption, Caroline experienced an inspiring and emotional event where many people were present with the intention to create loving homes for children in need. This experience reinforced her determination to adopt, highlighting the community's commitment to supporting children through adoption.",
+      "golden_answer": "many people wanting to create loving homes for children in need",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What celestial event did Melanie and her family witness while camping last year?",
+      "answer": "Melanie and her family witnessed the Perseid meteor shower while camping last year.",
+      "golden_answer": "Perseid meteor shower",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What day did Melanie attend the pottery workshop?",
+      "answer": "Melanie attended the pottery workshop on July 7, 2023.",
+      "golden_answer": "The Friday before 15 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What activity did Caroline used to do with her dad?",
+      "answer": "Caroline used to go horseback riding with her dad when she was a kid.",
+      "golden_answer": "Horseback riding",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What kind of pot did Mel and her kids make with clay?",
+      "answer": "Mel and her kids made pots during a pottery workshop. The experience was described as fun and therapeutic, allowing for creative expression and family bonding. However, there are no specific details about the type of pots they created.",
+      "golden_answer": "a cup with a dog face on it",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What book did Melanie read from Caroline's suggestion?",
+      "answer": "Melanie has been reading the book that Caroline recommended a while ago. The specific title of the book is not mentioned in the provided context. However, the event of Melanie reading this book occurred on October 13, 2023.",
+      "golden_answer": "\"Becoming Nicole\"",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "What would Caroline's political leaning likely be?",
+      "answer": "Caroline's political leaning would likely be progressive or left-leaning. This is inferred from her strong support for LGBTQ rights, her active involvement in advocacy for trans rights, and her commitment to creating a supportive community for marginalized groups. Her participation in the group 'Connected LGBTQ Activists' and her emphasis on fighting for equality and acceptance further indicate a progressive stance on social issues.",
+      "golden_answer": "Liberal",
+      "grade": true,
+      "category": 3
+    },
+    {
+      "question": "What did Mel and her kids paint in their latest project in July 2023?",
+      "answer": "In their latest project in July 2023, Mel and her kids painted nature-inspired artwork. This creative endeavor reflects their shared love for art and the inspiration they draw from nature and family bonding.",
+      "golden_answer": "a sunset with a palm tree",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What are Melanie's pets' names?",
+      "answer": "Melanie's pets are named Bailey and Oliver.",
+      "golden_answer": "Oliver, Luna, Bailey",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What year did Melanie create a painting of a sunrise?",
+      "answer": "Melanie created a painting of a sunrise in the year 2022.",
+      "golden_answer": 2022,
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "Can you tell me what Melanie think about Caroline's decision to adopt?",
+      "answer": "Melanie expresses strong support and encouragement for Caroline's decision to adopt. She wishes Caroline the best on her adoption journey and congratulates her for taking this significant step. Melanie acknowledges Caroline's kindness in taking in kids in need and believes that Caroline's future family will be lucky to have her. Overall, Melanie's sentiments reflect pride and admiration for Caroline's commitment to providing a loving home for children.",
+      "golden_answer": "she thinks Caroline is doing something amazing and will be an awesome mom",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What do Melanie's family give her?",
+      "answer": "Melanie's family gives her much joy and love, as she feels really lucky to have them. They motivate her, provide support during tough times, and help her feel at peace. Melanie cherishes the moments spent with her family, considering them her rock and her biggest motivation. Overall, their love and support play a crucial role in her happiness and well-being.",
+      "golden_answer": "Strength and motivation",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What year did Melanie's friend adopt a child?",
+      "answer": "Melanie's friend adopted a child in 2022.",
+      "golden_answer": 2022,
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What did the posters at the poetry reading say?",
+      "answer": "The context does not provide specific details about what the posters at the poetry reading said. However, it mentions that the posters were described as amazing, full of pride and strength, and contributed to an electrifying atmosphere of energy and support in the room. They inspired Caroline to create some art, highlighting their motivational and uplifting impact.",
+      "golden_answer": "\"Trans Lives Matter\"",
+      "grade": false,
+      "category": 4
+    },
+    {
+      "question": "What are some changes Caroline has faced during her transition journey?",
+      "answer": "During her transition journey, Caroline has faced several significant changes, including:\n\n1. **Self-Discovery and Acceptance**: Caroline has explored her identity as a transgender woman, which has involved a deep journey of self-discovery and acceptance. She has expressed that love and encouragement from friends and family have helped her grow into her true self.\n\n2. **Art as a Means of Expression**: Caroline has utilized art to explore her transition and changing body. She has stated that creating art has been really important to her during this time, allowing her to express her feelings and experiences related to her gender identity.\n\n3. **Support from Friends and Family**: Caroline has received substantial support from her friends and family throughout her transition. This support has been crucial in helping her navigate the challenges she has faced and has contributed to her happiness and sense of acceptance.\n\n4. **Building Genuine Relationships**: Caroline has developed more genuine relationships, particularly with friends like Melanie, who accept and love her for who she is. This has contributed to her overall happiness.\n\n5. **Public Advocacy**: Caroline has actively shared her transgender journey at school events, encouraging students to get involved in the LGBTQ community. This public advocacy reflects her growth and commitment to supporting others in similar situations.\n\n6. **Mentorship**: Caroline has taken on a mentorship role, helping other transgender individuals, particularly teens, build confidence and find positive strategies for their own journeys.\n\nThese changes highlight Caroline's personal growth, the importance of community support, and her commitment to advocacy and self-expression through art.",
+      "golden_answer": "Changes to her body, losing unsupportive friends",
+      "grade": true,
+      "category": 1
+    },
+    {
+      "question": "What month and year does Melanie intend to go camping?",
+      "answer": "Melanie intends to go camping in June 2023.",
+      "golden_answer": "June 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What date did Melanie go hiking following the road trip?",
+      "answer": "Melanie went hiking with the kids a few weeks ago, which corresponds to the event that took place on August 30, 2023. Therefore, the date when Melanie went hiking following the road trip is August 30, 2023.",
+      "golden_answer": "19 October 2023",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "When did Melanie's friend adopt a child?",
+      "answer": "Melanie's friend adopted a child last year, specifically on January 1, 2022.",
+      "golden_answer": 2022,
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What day did Caroline attend the adoption meeting?",
+      "answer": "Caroline attended the council meeting for adoption on July 7, 2023.",
+      "golden_answer": "The friday before 15 July 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What is the current relationship status of Caroline?",
+      "answer": "Caroline currently has more genuine relationships with Melanie, as she feels happier being around those who accept and love her. They maintain a friendly and supportive relationship, sharing life updates and encouraging each other in their creative pursuits and family activities. Caroline expresses readiness to offer love and support to Melanie, indicating a strong bond between them.",
+      "golden_answer": "Single",
+      "grade": false,
+      "category": 1
+    },
+    {
+      "question": "When did Caroline give a speech at a school?",
+      "answer": "Caroline gave a speech at a school event on June 2, 2023.",
+      "golden_answer": "The week before 9 June 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "What does Caroline's drawing symbolize for her?",
+      "answer": "Caroline's drawing symbolizes freedom, being real, and embracing her womanhood. She expressed that it serves as a reminder to love her authentic self and acts as a nudge to embrace her identity. This was stated on October 13, 2023.",
+      "golden_answer": "Freedom and being true to herself.",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "What year did Melanie read the book \"nothing is impossible\"?",
+      "answer": "The provided context does not contain any information about Melanie reading a book titled \"nothing is impossible.\" Therefore, I cannot determine the year she read that book. If you have any other questions or need information on a different topic, feel free to ask!",
+      "golden_answer": 2022,
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "What was the date of Melanie's camping trip in June?",
+      "answer": "The date of Melanie's camping trip in June was July 3, 2023, as she mentioned going camping with her family two weekends ago from that date.",
+      "golden_answer": "The week before 27 June 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "When did Caroline attend a pride parade in August?",
+      "answer": "Caroline did not attend a pride parade in August. The relevant memories indicate that she attended an LGBTQ+ pride parade on June 26, 2023, and there is no mention of a pride parade in August.",
+      "golden_answer": "The Friday before 14 August 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "What month and year did Melanie sustain an injury?",
+      "answer": "September 2023",
+      "golden_answer": "September 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie buy the figurines?",
+      "answer": "There is no information in the provided memories regarding Melanie buying figurines. Therefore, I cannot provide a specific date for when this event occurred.",
+      "golden_answer": "21 October 2023",
+      "grade": false,
+      "category": 2
+    },
+    {
+      "question": "Could you tell me what Caroline excited about in the adoption process?",
+      "answer": "Caroline is excited about creating a loving family for children who need it. She has expressed her dream of giving a loving home to kids and is thrilled about the prospect of making a family through adoption. Additionally, she appreciates the inclusivity and support of the adoption agencies she is researching, which resonate with her values and aspirations in the adoption process.",
+      "golden_answer": "creating a family for kids who need one",
+      "grade": true,
+      "category": 4
+    },
+    {
+      "question": "When is Melanie planning on going camping?",
+      "answer": "Melanie is planning on going camping next month, specifically in June 2023.",
+      "golden_answer": "June 2023",
+      "grade": true,
+      "category": 2
+    },
+    {
+      "question": "When did Melanie go camping in July?",
+      "answer": "Melanie went camping in July on July 3, 2023, when she mentioned going camping with her family two weekends ago. Additionally, she always looks forward to the family camping trip, which is also noted in July, specifically on July 20, 2023.",
+      "golden_answer": "two weekends before 17 July 2023",
+      "grade": true,
+      "category": 2
+    }
+  ]
+}

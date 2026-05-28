@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "config": {
+    "cache_similarity_threshold": 0.9,
+    "cache_ttl_seconds": 3600.0,
+    "cache_max_entries": 500
+  },
+  "stats": {
+    "total_queries": 235,
+    "cache_hits": 71,
+    "cache_misses": 164,
+    "hit_rate": "30.21%",
+    "avg_hit_latency_ms": "3.39",
+    "avg_miss_latency_ms": "9225.31",
+    "invalidations_by_ttl": 0,
+    "invalidations_by_entity": 0
+  }
+}

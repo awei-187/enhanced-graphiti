@@ -1,0 +1,41 @@
+semantic-cache:
+"avg_total_latency_ms": 5332.666571914919,
+"avg_absolute_latency_ms": 242.41202978749803,
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   84 /  107 | Accuracy: 78.50%
+Multi-Hop QA        :   28 /   43 | Accuracy: 65.12%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   54 /   70 | Accuracy: 77.14%
+--------------------------------------------------
+OVERALL ACCURACY    :  179 /  235 | Accuracy: 76.17%
+==================================================
+
+subgraph-cache:
+"avg_total_latency_ms": 6788.924742978255,
+"avg_absolute_latency_ms": 412.646007233552,
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   87 /  107 | Accuracy: 81.31%
+Multi-Hop QA        :   30 /   43 | Accuracy: 69.77%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   52 /   70 | Accuracy: 74.29%
+--------------------------------------------------
+OVERALL ACCURACY    :  182 /  235 | Accuracy: 77.45%
+==================================================
+
+no-cache:
+"avg_total_latency_ms": 8229.620514893651,
+"avg_absolute_latency_ms": 331.9753787234615,
+==================================================
+      GRAPHITI - DETAILED EVALUATION RESULTS
+==================================================
+Single-Hop QA       :   83 /  107 | Accuracy: 77.57%
+Multi-Hop QA        :   28 /   43 | Accuracy: 65.12%
+Open-Domain QA      :   13 /   15 | Accuracy: 86.67%
+Temporal QA         :   50 /   70 | Accuracy: 71.43%
+--------------------------------------------------
+OVERALL ACCURACY    :  174 /  235 | Accuracy: 74.04%
+==================================================
