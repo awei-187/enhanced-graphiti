@@ -1,123 +1,338 @@
 name: Daily Issue Maintenance
+
 on:
   schedule:
-    - cron: "0 0 * * *" # Every day at midnight
-  workflow_dispatch: # Manual trigger option
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: daily-issue-maintenance
+  cancel-in-progress: false
 
 jobs:
   find-legacy-duplicates:
-    runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
-    permissions:
-      contents: read
-      issues: write
-      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/github-script@v8
         with:
-          fetch-depth: 1
+          script: |
+            const DUPLICATE_LABEL = 'duplicate';
 
-      - uses: anthropics/claude-code-action@v1
-        with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          prompt: |
-            REPO: ${{ github.repository }}
+            async function ensureLabel(name, color, description) {
+              try {
+                await github.rest.issues.getLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name,
+                });
+              } catch (error) {
+                if (error.status !== 404) {
+                  throw error;
+                }
 
-            Find potential duplicate issues in the repository:
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name,
+                  color,
+                  description,
+                });
+              }
+            }
 
-            1. Use `gh issue list --state open --limit 1000 --json number,title,body,createdAt` to get all open issues
-            2. For each issue, search for potential duplicates using `gh search issues` with keywords from the title and body
-            3. Compare issues to identify true duplicates using these criteria:
-               - Same bug or error being reported
-               - Same feature request (even if worded differently)
-               - Same question being asked
-               - Issues describing the same root problem
+            function normalizeTitle(title) {
+              return title
+                .toLowerCase()
+                .replace(/[^a-z0-9\s]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+            }
 
-            For each duplicate found:
-            - Add a comment linking to the original issue
-            - Apply the "duplicate" label using `gh issue edit`
-            - Be polite and explain why it's a duplicate
+            await ensureLabel(DUPLICATE_LABEL, 'cfd3d7', 'Potential duplicate issue');
 
-            Focus on finding true duplicates, not just similar issues.
+            const issues = (await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100,
+            })).filter((issue) => !issue.pull_request);
 
-          claude_args: |
-            --allowedTools "Bash(gh issue:*),Bash(gh search:*)"
-            --model claude-sonnet-4-5-20250929
+            const groups = new Map();
+            for (const issue of issues) {
+              const key = normalizeTitle(issue.title);
+              if (!key) {
+                continue;
+              }
+
+              if (!groups.has(key)) {
+                groups.set(key, []);
+              }
+
+              groups.get(key).push(issue);
+            }
+
+            const matches = [];
+
+            for (const group of groups.values()) {
+              if (group.length < 2) {
+                continue;
+              }
+
+              group.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+              const canonical = group[0];
+
+              for (const duplicate of group.slice(1)) {
+                const commentBody = [
+                  `Possible duplicate of #${canonical.number} based on an exact title match after normalization.`,
+                  '',
+                  'Please close this issue if both reports describe the same problem.',
+                  '<!-- duplicate-check:exact-normalized-title -->',
+                ].join('\n');
+
+                const comments = await github.paginate(github.rest.issues.listComments, {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: duplicate.number,
+                  per_page: 100,
+                });
+
+                if (!comments.some((comment) => comment.body && comment.body.includes('<!-- duplicate-check:exact-normalized-title -->'))) {
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: duplicate.number,
+                    body: commentBody,
+                  });
+                }
+
+                const labels = duplicate.labels
+                  .map((label) => (typeof label === 'string' ? label : label.name))
+                  .filter(Boolean);
+                if (!labels.includes(DUPLICATE_LABEL)) {
+                  await github.rest.issues.addLabels({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: duplicate.number,
+                    labels: [DUPLICATE_LABEL],
+                  });
+                }
+
+                matches.push(`#${duplicate.number} -> #${canonical.number}`);
+              }
+            }
+
+            if (matches.length === 0) {
+              core.summary.addRaw('No exact-title duplicate candidates were found.\n');
+            } else {
+              core.summary.addHeading('Flagged duplicates', 2);
+              core.summary.addList(matches);
+            }
+
+            await core.summary.write();
 
   check-stale-issues:
-    runs-on: ubuntu-latest
     if: github.event_name == 'schedule'
-    permissions:
-      contents: read
-      issues: write
-      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/github-script@v8
         with:
-          fetch-depth: 1
+          script: |
+            const STALE_LABEL = 'stale-check';
+            const WARNING_MARKER = '<!-- stale-check:pending-confirmation -->';
+            const STALE_DAYS = 60;
+            const EXCLUDED_LABELS = new Set(['enhancement', 'documentation']);
 
-      - uses: anthropics/claude-code-action@v1
-        with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          prompt: |
-            REPO: ${{ github.repository }}
+            async function ensureLabel(name, color, description) {
+              try {
+                await github.rest.issues.getLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name,
+                });
+              } catch (error) {
+                if (error.status !== 404) {
+                  throw error;
+                }
 
-            Review stale issues and request confirmation:
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name,
+                  color,
+                  description,
+                });
+              }
+            }
 
-            1. Use `gh issue list --state open --limit 1000 --json number,title,updatedAt,comments` to get all open issues
-            2. Identify issues that are:
-               - Older than 60 days (based on updatedAt)
-               - Have no comments with "stale-check" label
-               - Are not labeled as "enhancement" or "documentation"
-            3. For each stale issue:
-               - Add a polite comment asking the issue originator if this is still relevant
-               - Apply a "stale-check" label to track that we've asked
-               - Use format: "@{author} Is this still an issue? Please confirm within 14 days or this issue will be closed."
+            await ensureLabel(STALE_LABEL, 'fbca04', 'Awaiting confirmation from the issue author');
 
-            Use:
-            - `gh issue view` to check issue details and labels
-            - `gh issue comment` to add comments
-            - `gh issue edit` to add the "stale-check" label
+            const staleBefore = Date.now() - (STALE_DAYS * 24 * 60 * 60 * 1000);
+            const openIssues = (await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100,
+            })).filter((issue) => !issue.pull_request);
 
-          claude_args: |
-            --allowedTools "Bash(gh issue:*)"
-            --model claude-sonnet-4-5-20250929
+            const warnedIssues = [];
+
+            for (const issue of openIssues) {
+              const labelNames = issue.labels
+                .map((label) => (typeof label === 'string' ? label : label.name))
+                .filter(Boolean);
+
+              if (labelNames.includes(STALE_LABEL)) {
+                continue;
+              }
+
+              if (labelNames.some((label) => EXCLUDED_LABELS.has(label))) {
+                continue;
+              }
+
+              if (new Date(issue.updated_at).getTime() > staleBefore) {
+                continue;
+              }
+
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                per_page: 100,
+              });
+
+              if (comments.some((comment) => comment.body && comment.body.includes(WARNING_MARKER))) {
+                continue;
+              }
+
+              const body = [
+                `@${issue.user.login} Is this still an issue? Please confirm within 14 days or this issue will be closed.`,
+                '',
+                WARNING_MARKER,
+              ].join('\n');
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body,
+              });
+
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: [STALE_LABEL],
+              });
+
+              warnedIssues.push(`#${issue.number}`);
+            }
+
+            if (warnedIssues.length === 0) {
+              core.summary.addRaw('No stale issues required a confirmation request today.\n');
+            } else {
+              core.summary.addHeading('Stale issues flagged', 2);
+              core.summary.addList(warnedIssues);
+            }
+
+            await core.summary.write();
 
   close-unconfirmed-issues:
-    runs-on: ubuntu-latest
     if: github.event_name == 'schedule'
     needs: check-stale-issues
-    permissions:
-      contents: read
-      issues: write
-      id-token: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/github-script@v8
         with:
-          fetch-depth: 1
+          script: |
+            const STALE_LABEL = 'stale-check';
+            const WARNING_MARKER = '<!-- stale-check:pending-confirmation -->';
+            const WARNING_WINDOW_DAYS = 14;
+            const BOT_LOGINS = new Set(['github-actions[bot]']);
 
-      - uses: anthropics/claude-code-action@v1
-        with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          prompt: |
-            REPO: ${{ github.repository }}
+            const cutoff = Date.now() - (WARNING_WINDOW_DAYS * 24 * 60 * 60 * 1000);
+            const staleIssues = (await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: STALE_LABEL,
+              per_page: 100,
+            })).filter((issue) => !issue.pull_request);
 
-            Close unconfirmed stale issues:
+            const closedIssues = [];
 
-            1. Use `gh issue list --state open --label "stale-check" --limit 1000 --json number,title,comments,updatedAt` to get issues with stale-check label
-            2. For each issue, check if:
-               - The "stale-check" comment was added 14+ days ago
-               - There has been no response from the issue author or activity since the comment
-            3. For issues meeting the criteria:
-               - Add a polite closing comment
-               - Close the issue using `gh issue close`
-               - Use format: "Closing due to inactivity. Feel free to reopen if this is still relevant."
+            for (const issue of staleIssues) {
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                per_page: 100,
+              });
 
-            Use:
-            - `gh issue view` to check issue comments and activity
-            - `gh issue comment` to add closing comment
-            - `gh issue close` to close the issue
+              const warningComment = [...comments]
+                .reverse()
+                .find((comment) => comment.body && comment.body.includes(WARNING_MARKER));
 
-          claude_args: |
-            --allowedTools "Bash(gh issue:*)"
-            --model claude-sonnet-4-5-20250929
+              if (!warningComment) {
+                continue;
+              }
+
+              const warnedAt = new Date(warningComment.created_at).getTime();
+              if (warnedAt > cutoff) {
+                continue;
+              }
+
+              const hasFollowUp = comments.some((comment) => {
+                const createdAt = new Date(comment.created_at).getTime();
+                return createdAt > warnedAt && !BOT_LOGINS.has(comment.user.login);
+              });
+
+              if (hasFollowUp) {
+                continue;
+              }
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: 'Closing due to inactivity. Feel free to reopen if this is still relevant.',
+              });
+
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  name: STALE_LABEL,
+                });
+              } catch (error) {
+                if (error.status !== 404) {
+                  throw error;
+                }
+              }
+
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+              });
+
+              closedIssues.push(`#${issue.number}`);
+            }
+
+            if (closedIssues.length === 0) {
+              core.summary.addRaw('No stale issues were closed today.\n');
+            } else {
+              core.summary.addHeading('Closed stale issues', 2);
+              core.summary.addList(closedIssues);
+            }
+
+            await core.summary.write();
